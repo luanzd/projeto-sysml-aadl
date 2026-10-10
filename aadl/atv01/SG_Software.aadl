@@ -1,0 +1,240 @@
+-- =============================================================================
+--  SG_Software: software de aplicação do SensorGatewaySoC
+--  Contrato: contrato-projeto3.md
+--
+--  As cinco threads e os três processos que as agrupam.
+--
+--  Repare que este pacote importa SG_Types, mas NÃO importa SG_Platform:
+--  o software não sabe em que hardware vai rodar. Quem decide isso é só o
+--  SG_System, pelos bindings. O mesmo software poderia ser alocado em outra
+--  plataforma trocando apenas o pacote do sistema.
+--
+--  Tempos em us: o tipo Time do AADL é inteiro, então 0,2 ms se escreve
+--  200 us. Prioridades por Rate Monotonic (maior número = mais prioritária).
+-- =============================================================================
+package SG_Software
+public
+  with SG_Types;
+
+  -- ###########################################################################
+  --  THREADS
+  -- ###########################################################################
+
+  -- SensorInterface: atende os três sensores, valida e descarta as inválidas
+  -- (RQ01, RQ07) e informa cada recepção à estatística (RQ06).
+  thread Receiver
+    features
+      msg_in  : in event data port SG_Types::Msg.impl { Queue_Size => 4; };
+      msg_out : out event data port SG_Types::Msg.impl;       -- só as válidas
+      report  : out event data port SG_Types::RxReport.impl;  -- para a estatística
+    flows
+      fp : flow path msg_in -> msg_out;
+    properties
+      Dispatch_Protocol      => Sporadic;
+      Period                 => 5 ms;
+      Compute_Execution_Time => 200 us .. 500 us;
+      Deadline               => 5 ms;
+      Priority               => 5;
+  end Receiver;
+
+  -- StatisticsManager: contadores por sensor e de buffer cheio (RQ06).
+  -- Periódica e de baixa prioridade: a cada segundo processa todos os
+  -- relatórios acumulados de uma vez (AllItems).
+  thread Statistics
+    features
+      report_in   : in event data port SG_Types::RxReport.impl {
+        Queue_Size       => 16;
+        Dequeue_Protocol => AllItems;
+      };
+      buffer_full : in event port;
+    properties
+      Dispatch_Protocol      => Periodic;
+      Period                 => 1000 ms;
+      Compute_Execution_Time => 500 us .. 1 ms;
+      Deadline               => 1000 ms;
+      Priority               => 1;
+  end Statistics;
+
+  -- MessageFormatter: classifica em crítica ou periódica, preenche o campo
+  -- priority (RQ08) e manda cada mensagem para a fila certa. Lê o limite de
+  -- temperatura da configuração, só para leitura.
+  -- (Nome MsgClassifier porque "classifier" é palavra reservada do AADL.)
+  thread MsgClassifier
+    features
+      msg_in   : in event data port SG_Types::Msg.impl { Queue_Size => 4; };
+      crit_out : out event data port SG_Types::Msg.impl;
+      per_out  : out event data port SG_Types::Msg.impl;
+      cfg      : requires data access SG_Types::Config.impl {
+        Access_Right => read_only;
+      };
+    flows
+      fp_crit : flow path msg_in -> crit_out;
+      fp_per  : flow path msg_in -> per_out;
+    properties
+      Dispatch_Protocol      => Sporadic;
+      Period                 => 5 ms;
+      Compute_Execution_Time => 200 us .. 500 us;
+      Deadline               => 5 ms;
+      Priority               => 4;
+  end MsgClassifier;
+
+  -- MessageBuffer (controle): encaminha cada mensagem para a fila certa do
+  -- árbitro e controla a ocupação por CRÉDITOS, como o controle de fluxo de
+  -- uma NoC: começa com 4 créditos críticos e 16 periódicos, gasta um a cada
+  -- mensagem enviada e recebe um de volta a cada mensagem que o árbitro
+  -- transmite. Sem créditos numa fila = fila cheia = sinaliza BufferFull (RQ05).
+  thread BufferMgr
+    features
+      crit_in     : in event data port SG_Types::Msg.impl { Queue_Size => 2; };  -- trânsito
+      per_in      : in event data port SG_Types::Msg.impl { Queue_Size => 2; };  -- trânsito
+      crit_out    : out event data port SG_Types::Msg.impl;
+      per_out     : out event data port SG_Types::Msg.impl;
+      crit_credit : in event port { Queue_Size => 4; };
+      per_credit  : in event port { Queue_Size => 16; };
+      buffer_full : out event port;
+    flows
+      fp_crit : flow path crit_in -> crit_out;
+      fp_per  : flow path per_in -> per_out;
+    properties
+      Dispatch_Protocol      => Sporadic;
+      Period                 => 5 ms;
+      Compute_Execution_Time => 100 us .. 300 us;
+      Deadline               => 5 ms;
+      Priority               => 3;
+  end BufferMgr;
+
+  -- PriorityArbiter: as duas portas de entrada SÃO as filas do buffer
+  -- (RQ04, RQ12). Cada disparo transmite uma mensagem: se as duas filas têm
+  -- mensagens, a Urgency maior escolhe a crítica (prioridade estrita, RQ03).
+  -- Esporádica com intervalo mínimo de 10 ms = no máximo 100 msg/s na saída.
+  -- Com o enlace caído (link_down) não transmite: as mensagens ficam nas
+  -- filas e a política de cada fila decide o que acontece quando ela enche
+  -- (RQ10).
+  thread Arbiter
+    features
+      crit_in : in event data port SG_Types::Msg.impl {
+        Queue_Size                 => 4;
+        Overflow_Handling_Protocol => Error;       -- crítica nunca some calada
+        Urgency                    => 2;
+      };
+      per_in : in event data port SG_Types::Msg.impl {
+        Queue_Size                 => 16;
+        Overflow_Handling_Protocol => DropOldest;  -- leitura nova vale mais
+        Urgency                    => 1;
+      };
+      msg_out     : out event data port SG_Types::Msg.impl;
+      crit_credit : out event port;   -- devolve crédito a cada crítica transmitida
+      per_credit  : out event port;   -- devolve crédito a cada periódica transmitida
+      link_down   : in event port;
+      link_up     : in event port;
+    flows
+      fp_crit : flow path crit_in -> msg_out;
+      fp_per  : flow path per_in -> msg_out;
+    properties
+      Dispatch_Protocol      => Sporadic;
+      Period                 => 10 ms;
+      Compute_Execution_Time => 1 ms .. 2 ms;
+      Deadline               => 10 ms;
+      Priority               => 2;
+  end Arbiter;
+
+  -- ###########################################################################
+  --  PROCESSOS
+  --  Cada processo é um espaço de endereçamento que agrupa threads. As
+  --  features do processo são as "bordas" por onde as conexões entram e saem.
+  -- ###########################################################################
+
+  -- Aquisição e validação: recepção + estatística
+  process Acquisition
+    features
+      msg_in      : in event data port SG_Types::Msg.impl;   -- dos três sensores
+      msg_out     : out event data port SG_Types::Msg.impl;
+      buffer_full : in event port;                           -- vem do BufferMgr
+    flows
+      fp : flow path msg_in -> msg_out;
+  end Acquisition;
+
+  process implementation Acquisition.impl
+    subcomponents
+      receiver   : thread Receiver;
+      statistics : thread Statistics;
+    connections
+      c_in   : port msg_in -> receiver.msg_in;               -- desce
+      c_out  : port receiver.msg_out -> msg_out;             -- sobe
+      c_rep  : port receiver.report -> statistics.report_in; -- entre irmãs
+      c_full : port buffer_full -> statistics.buffer_full;   -- desce
+    flows
+      fp : flow path msg_in -> c_in -> receiver.fp -> c_out -> msg_out;
+  end Acquisition.impl;
+
+  -- Classificação e armazenamento: classificador + gerenciador do buffer,
+  -- mais o dado de configuração que o classificador lê
+  process Classification
+    features
+      msg_in      : in event data port SG_Types::Msg.impl;
+      crit_out    : out event data port SG_Types::Msg.impl;
+      per_out     : out event data port SG_Types::Msg.impl;
+      crit_credit : in event port;
+      per_credit  : in event port;
+      buffer_full : out event port;
+    flows
+      fp_crit : flow path msg_in -> crit_out;
+      fp_per  : flow path msg_in -> per_out;
+  end Classification;
+
+  process implementation Classification.impl
+    subcomponents
+      msg_classifier : thread MsgClassifier;
+      buffer_mgr     : thread BufferMgr;
+      config         : data SG_Types::Config.impl;
+    connections
+      c_in     : port msg_in -> msg_classifier.msg_in;
+      c_crit   : port msg_classifier.crit_out -> buffer_mgr.crit_in;
+      c_per    : port msg_classifier.per_out -> buffer_mgr.per_in;
+      c_crit_o : port buffer_mgr.crit_out -> crit_out;
+      c_per_o  : port buffer_mgr.per_out -> per_out;
+      c_ccred  : port crit_credit -> buffer_mgr.crit_credit;
+      c_pcred  : port per_credit -> buffer_mgr.per_credit;
+      c_full   : port buffer_mgr.buffer_full -> buffer_full;
+      -- Acesso à configuração: com seta de sentido único, porque o
+      -- classificador só lê (Access_Right => read_only na feature)
+      a_cfg    : data access config -> msg_classifier.cfg;
+    flows
+      fp_crit : flow path msg_in -> c_in -> msg_classifier.fp_crit -> c_crit
+                -> buffer_mgr.fp_crit -> c_crit_o -> crit_out;
+      fp_per  : flow path msg_in -> c_in -> msg_classifier.fp_per -> c_per
+                -> buffer_mgr.fp_per -> c_per_o -> per_out;
+  end Classification.impl;
+
+  -- Transmissão: árbitro (dono das filas) + controle do enlace
+  process Transmission
+    features
+      crit_in     : in event data port SG_Types::Msg.impl;
+      per_in      : in event data port SG_Types::Msg.impl;
+      msg_out     : out event data port SG_Types::Msg.impl;
+      crit_credit : out event port;
+      per_credit  : out event port;
+      link_down   : in event port;
+      link_up     : in event port;
+    flows
+      fp_crit : flow path crit_in -> msg_out;
+      fp_per  : flow path per_in -> msg_out;
+  end Transmission;
+
+  process implementation Transmission.impl
+    subcomponents
+      arbiter : thread Arbiter;
+    connections
+      c_crit  : port crit_in -> arbiter.crit_in;
+      c_per   : port per_in -> arbiter.per_in;
+      c_out   : port arbiter.msg_out -> msg_out;
+      c_ccred : port arbiter.crit_credit -> crit_credit;
+      c_pcred : port arbiter.per_credit -> per_credit;
+      c_down  : port link_down -> arbiter.link_down;
+      c_up    : port link_up -> arbiter.link_up;
+    flows
+      fp_crit : flow path crit_in -> c_crit -> arbiter.fp_crit -> c_out -> msg_out;
+      fp_per  : flow path per_in -> c_per -> arbiter.fp_per -> c_out -> msg_out;
+  end Transmission.impl;
+
+end SG_Software;

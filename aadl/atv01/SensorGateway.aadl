@@ -1,0 +1,124 @@
+-- =============================================================================
+--  SensorGateway: modelo AADL do Projeto 3 (SensorGatewaySoC)
+--
+--  Construção incremental. Ao fim de cada parte: salvar -> Problems -> Instantiate.
+--    Parte 1: dados + plataforma (hardware e dispositivos)   <- ATUAL
+--    Parte 2: threads
+--    Parte 3: processos
+--    Parte 4: sistema completo (conexões + bindings)
+--    Parte 5: fluxos + análise de latência
+-- =============================================================================
+package SensorGateway
+public
+  with Base_Types;
+
+  -- ===========================================================================
+  --  DADOS
+  -- ===========================================================================
+
+  -- Mensagem padronizada de 8 bytes (RQ02, RQ09).
+  -- O campo reservado vem antes de value para alinhar o inteiro no offset 4.
+  data Msg
+    properties
+      Data_Size => 8 Bytes;
+  end Msg;
+
+  data implementation Msg.impl
+    subcomponents
+      source_id : data Base_Types::Unsigned_8;   -- 0 temp, 1 luz, 2 movimento
+      msg_type  : data Base_Types::Unsigned_8;   -- 0 leitura, 1 evento
+      priority  : data Base_Types::Unsigned_8;   -- 0 periódica, 1 crítica
+      reserved  : data Base_Types::Unsigned_8;   -- alinhamento
+      value     : data Base_Types::Integer_32;
+  end Msg.impl;
+
+  -- ===========================================================================
+  --  PLATAFORMA DE EXECUÇÃO
+  -- ===========================================================================
+
+  -- Barramento interno do SoC
+  bus SocBus
+  end SocBus;
+
+  processor Cpu
+    features
+      bus_ic : requires bus access SocBus;
+  end Cpu;
+
+  -- Guarda configuração, buffer e contadores (ConfigurationMemory, MessageBuffer)
+  memory Ram
+    features
+      bus_ic : requires bus access SocBus;
+    properties
+      Memory_Size => 64 KByte;
+  end Ram;
+
+  -- ===========================================================================
+  --  DISPOSITIVOS
+  --  Cada device representa o sensor junto com o controlador de interface
+  --  mapeado no barramento. O interior não é modelado (caixa-preta).
+  -- ===========================================================================
+
+  -- Interface comum aos três sensores, herdada pelos tipos abaixo
+  device Sensor
+    features
+      msg_out : out event data port Msg.impl;
+      bus_ic  : requires bus access SocBus;
+  end Sensor;
+
+  device TempSensor extends Sensor
+    properties
+      Dispatch_Protocol => Periodic;
+      Period => 500 ms;
+  end TempSensor;
+
+  device LightSensor extends Sensor
+    properties
+      Dispatch_Protocol => Periodic;
+      Period => 500 ms;
+  end LightSensor;
+
+  -- Movimento só envia quando detecta: esporádico, intervalo mínimo de 100 ms
+  device MotionSensor extends Sensor
+    properties
+      Dispatch_Protocol => Sporadic;
+      Period => 100 ms;
+  end MotionSensor;
+
+  -- Interface de saída (UART, CAN ou rádio; não implementada)
+  device OutputIf
+    features
+      msg_in      : in event data port Msg.impl;  -- mensagens a transmitir
+      buffer_full : in event port;                -- indicação de estado (RQ05)
+      link_down   : out event port;               -- saída caiu (RQ10)
+      link_up     : out event port;               -- saída voltou (RQ10)
+      bus_ic      : requires bus access SocBus;
+  end OutputIf;
+
+  -- ===========================================================================
+  --  SISTEMA
+  --  Parte 1: só plataforma e dispositivos. Os processos entram na parte 4.
+  -- ===========================================================================
+  system SensorGatewaySoC
+  end SensorGatewaySoC;
+
+  system implementation SensorGatewaySoC.impl
+    subcomponents
+      cpu           : processor Cpu;
+      ram           : memory Ram;
+      soc_bus       : bus SocBus;
+      temp_sensor   : device TempSensor;
+      light_sensor  : device LightSensor;
+      motion_sensor : device MotionSensor;
+      out_if        : device OutputIf;
+    connections
+      -- Topologia física: tudo pendurado no barramento do SoC
+      hw_cpu    : bus access soc_bus <-> cpu.bus_ic;
+      hw_ram    : bus access soc_bus <-> ram.bus_ic;
+      hw_temp   : bus access soc_bus <-> temp_sensor.bus_ic;
+      hw_light  : bus access soc_bus <-> light_sensor.bus_ic;
+      hw_motion : bus access soc_bus <-> motion_sensor.bus_ic;
+      hw_out    : bus access soc_bus <-> out_if.bus_ic;
+  end SensorGatewaySoC.impl;
+
+end SensorGateway;

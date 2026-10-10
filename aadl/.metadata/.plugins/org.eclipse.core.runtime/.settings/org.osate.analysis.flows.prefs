@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+org.osate.analysis.flows.asynchronous_system=asynchronous system
+org.osate.analysis.flows.asynchronous_system_last_used=asynchronous system
+org.osate.analysis.flows.bestcase_empty_queue=best case as empty queue
+org.osate.analysis.flows.bestcase_empty_queue_last_used=best case as empty queue
+org.osate.analysis.flows.disable_queuing_latency=disabled
+org.osate.analysis.flows.disable_queuing_latency_last_used=disabled
+org.osate.analysis.flows.partitioning_policy=partition end
+org.osate.analysis.flows.partitioning_policy_last_used=partition end
+org.osate.analysis.flows.report_worstcasedeadline=worst case as deadline
+org.osate.analysis.flows.report_worstcasedeadline_last_used=worst case as deadline

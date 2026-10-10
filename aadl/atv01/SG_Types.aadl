@@ -1,0 +1,57 @@
+-- =============================================================================
+--  SG_Types: tipos de dados do SensorGatewaySoC (Projeto 3)
+--  Contrato: contrato-projeto3.md
+--
+--  Pacote-base: não depende de nenhum outro pacote do projeto.
+--  É importado pela plataforma e pelo software.
+--
+--  Dependências do projeto:
+--      SG_Types  <-  SG_Platform  <-+
+--      SG_Types  <-  SG_Software  <-+-  SG_System
+-- =============================================================================
+package SG_Types
+public
+  with Base_Types;
+
+  -- Mensagem padronizada de 8 bytes (RQ02, RQ09).
+  -- O campo reservado vem antes de value para alinhar o inteiro no offset 4.
+  data Msg
+    properties
+      Data_Size => 8 Bytes;
+  end Msg;
+
+  data implementation Msg.impl
+    subcomponents
+      source_id : data Base_Types::Unsigned_8;   -- 0 temp, 1 luz, 2 movimento
+      msg_type  : data Base_Types::Unsigned_8;   -- 0 leitura, 1 evento
+      priority  : data Base_Types::Unsigned_8;   -- 0 periódica, 1 crítica
+      reserved  : data Base_Types::Unsigned_8;   -- alinhamento
+      value     : data Base_Types::Integer_32;
+  end Msg.impl;
+
+  -- Relatório que a recepção manda para a estatística a cada mensagem
+  -- recebida: de qual sensor veio e se era válida (RQ06, RQ07).
+  data RxReport
+    properties
+      Data_Size => 2 Bytes;
+  end RxReport;
+
+  data implementation RxReport.impl
+    subcomponents
+      source_id : data Base_Types::Unsigned_8;
+      valid     : data Base_Types::Boolean;
+  end RxReport.impl;
+
+  -- Configuração lida pelo classificador: limite de temperatura acima do
+  -- qual a leitura vira crítica (ConfigurationMemory, contrato 2.3).
+  data Config
+    properties
+      Data_Size => 4 Bytes;
+  end Config;
+
+  data implementation Config.impl
+    subcomponents
+      temp_limit : data Base_Types::Integer_32;   -- em °C, padrão 45
+  end Config.impl;
+
+end SG_Types;

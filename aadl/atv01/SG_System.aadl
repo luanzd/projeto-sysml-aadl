@@ -1,0 +1,91 @@
+-- =============================================================================
+--  SG_System: integração do SensorGatewaySoC (Projeto 3)
+--  Contrato: contrato-projeto3.md
+--
+--  O único pacote que conhece ao mesmo tempo a plataforma e o software.
+--  Aqui acontecem as três decisões de integração:
+--    1. quais componentes existem (subcomponents)
+--    2. como se ligam (connections)
+--    3. onde cada software roda e mora (bindings)
+--  e o requisito de latência fim a fim (flows).
+--
+--  Raiz para instanciar: SG_System::SensorGatewaySoC.impl
+-- =============================================================================
+package SG_System
+public
+  with SG_Platform, SG_Software;
+
+  system SensorGatewaySoC
+  end SensorGatewaySoC;
+
+  system implementation SensorGatewaySoC.impl
+    subcomponents
+      -- Plataforma
+      cpu            : processor SG_Platform::Cpu;
+      ram            : memory SG_Platform::Ram;
+      soc_bus        : bus SG_Platform::SocBus;
+      -- Dispositivos
+      temp_sensor    : device SG_Platform::TempSensor;
+      light_sensor   : device SG_Platform::LightSensor;
+      motion_sensor  : device SG_Platform::MotionSensor;
+      out_if         : device SG_Platform::OutputIf;
+      -- Software
+      acquisition    : process SG_Software::Acquisition.impl;
+      classification : process SG_Software::Classification.impl;
+      transmission   : process SG_Software::Transmission.impl;
+    connections
+      -- Topologia física: tudo pendurado no barramento do SoC
+      hw_cpu    : bus access soc_bus <-> cpu.bus_ic;
+      hw_ram    : bus access soc_bus <-> ram.bus_ic;
+      hw_temp   : bus access soc_bus <-> temp_sensor.bus_ic;
+      hw_light  : bus access soc_bus <-> light_sensor.bus_ic;
+      hw_motion : bus access soc_bus <-> motion_sensor.bus_ic;
+      hw_out    : bus access soc_bus <-> out_if.bus_ic;
+
+      -- Sensores -> aquisição: três fontes na mesma porta (fan-in)
+      m_temp   : port temp_sensor.msg_out -> acquisition.msg_in;
+      m_light  : port light_sensor.msg_out -> acquisition.msg_in;
+      m_motion : port motion_sensor.msg_out -> acquisition.msg_in;
+
+      -- Pipeline de mensagens
+      m_acq  : port acquisition.msg_out -> classification.msg_in;
+      m_crit : port classification.crit_out -> transmission.crit_in;
+      m_per  : port classification.per_out -> transmission.per_in;
+      m_tx   : port transmission.msg_out -> out_if.msg_in;
+
+      -- Créditos: o árbitro devolve ao gerenciador do buffer
+      e_ccred : port transmission.crit_credit -> classification.crit_credit;
+      e_pcred : port transmission.per_credit -> classification.per_credit;
+
+      -- BufferFull: uma saída, dois destinos (fan-out)
+      e_full_stat : port classification.buffer_full -> acquisition.buffer_full;
+      e_full_out  : port classification.buffer_full -> out_if.buffer_full;
+
+      -- Estado do enlace
+      e_down : port out_if.link_down -> transmission.link_down;
+      e_up   : port out_if.link_up -> transmission.link_up;
+
+    -- O caminho do evento crítico, do sensor de movimento até a saída,
+    -- sempre alternando fluxo de componente e conexão (RQ03, RQ11).
+    flows
+      e2e_critical : end to end flow
+          motion_sensor.src
+          -> m_motion -> acquisition.fp
+          -> m_acq    -> classification.fp_crit
+          -> m_crit   -> transmission.fp_crit
+          -> m_tx     -> out_if.snk
+        { Latency => 0 ms .. 100 ms; };
+
+    properties
+      -- Binding: onde o software roda e onde mora
+      Actual_Processor_Binding => (reference (cpu))
+        applies to acquisition, classification, transmission;
+      Actual_Memory_Binding => (reference (ram))
+        applies to acquisition, classification, transmission;
+      -- Só as conexões que envolvem dispositivos passam pelo barramento.
+      -- Entre processos na mesma CPU a comunicação é pela memória.
+      Actual_Connection_Binding => (reference (soc_bus))
+        applies to m_temp, m_light, m_motion, m_tx, e_down, e_up, e_full_out;
+  end SensorGatewaySoC.impl;
+
+end SG_System;

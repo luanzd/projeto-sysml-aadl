@@ -1,0 +1,25 @@
+Latency analysis with preference settings: synchronous system/partition end/worst case as max compute execution time/best case as full queue min compute execution time/queuing latency enabled
+
+"Latency results for end-to-end flow 'e2e' of system 'Gateway.impl' "
+
+Result,Min Specified,Min Actual,Min Method,Max Specified,Max Actual,Max Method,Comments
+device temp (source src),0.0ms,0.0ms,first sampling,0.0ms,0.0ms,first sampling
+device temp (source src),0.0ms,0.0ms,no sampling/queuing latency,0.0ms,100.0ms,deadline,Using deadline as execution time was not set
+(bus ic),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued
+(bus ic),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection temp.msg_out -> acq.rx.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread acq.rx (path fp),0.0ms,80.0ms,queued,0.0ms,80.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case full queue
+thread acq.rx (path fp),0.0ms,1.0ms,processing time,0.0ms,2.0ms,processing time
+(bus ic),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued
+(bus ic),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection acq.rx.msg_out -> out_if.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+device out_if (sink snk),0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+Latency Total,0.0ms,81.0ms,,0.0ms,182.0ms
+Specified End To End Latency,,0.0ms,,,50.0ms
+End to end Latency Summary
+ERROR,Minimum actual latency total 81.0ms exceeds expected maximum end to end latency 50.0ms
+ERROR,Maximum actual latency total 182.0ms exceeds expected maximum end to end latency 50.0ms
+WARNING,Jitter of actual latency total 81.0..182.0ms exceeds expected end to end latency jitter 0.000..50.0ms
+
+
+

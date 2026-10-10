@@ -1,0 +1,90 @@
+-- =============================================================================
+--  SG_Platform: plataforma de execução e dispositivos do SensorGatewaySoC
+--  Contrato: contrato-projeto3.md
+--
+--  O hardware em que o software vai rodar (CPU, memória, barramento) e os
+--  dispositivos na fronteira do sistema (sensores e interface de saída).
+--  Importa só os tipos de dados: não sabe nada sobre o software.
+-- =============================================================================
+package SG_Platform
+public
+  with SG_Types;
+
+  -- ===========================================================================
+  --  PLATAFORMA DE EXECUÇÃO
+  -- ===========================================================================
+
+  -- Barramento interno do SoC
+  bus SocBus
+  end SocBus;
+
+  -- CPU + escalonador. A política é Rate Monotonic (contrato 6.1).
+  -- Para a análise de escalonabilidade, descomente as duas linhas abaixo
+  -- e confira o valor exato com Ctrl+Espaço: a lista de valores aceitos
+  -- vem do property set AADL_Project e muda entre versões.
+  processor Cpu
+    features
+      bus_ic : requires bus access SocBus;
+    -- properties
+    --   Scheduling_Protocol => (RMS);
+  end Cpu;
+
+  -- Guarda configuração, filas e contadores (ConfigurationMemory, MessageBuffer)
+  memory Ram
+    features
+      bus_ic : requires bus access SocBus;
+    properties
+      Memory_Size => 64 KByte;
+  end Ram;
+
+  -- ===========================================================================
+  --  DISPOSITIVOS
+  --  Cada device representa o sensor junto com o controlador de interface
+  --  mapeado no barramento. O interior não é modelado (caixa-preta).
+  -- ===========================================================================
+
+  -- Interface comum aos três sensores, herdada pelos tipos abaixo.
+  -- O fluxo fim a fim nasce aqui; 1 ms é o tempo do controlador entre a
+  -- detecção e a mensagem pronta na porta.
+  device Sensor
+    features
+      msg_out : out event data port SG_Types::Msg.impl;
+      bus_ic  : requires bus access SocBus;
+    flows
+      src : flow source msg_out { Latency => 0 ms .. 1 ms; };
+  end Sensor;
+
+  device TempSensor extends Sensor
+    properties
+      Dispatch_Protocol => Periodic;
+      Period            => 500 ms;
+  end TempSensor;
+
+  device LightSensor extends Sensor
+    properties
+      Dispatch_Protocol => Periodic;
+      Period            => 500 ms;
+  end LightSensor;
+
+  -- Movimento só envia quando detecta: esporádico, intervalo mínimo de 100 ms
+  device MotionSensor extends Sensor
+    properties
+      Dispatch_Protocol => Sporadic;
+      Period            => 100 ms;
+  end MotionSensor;
+
+  -- Interface de saída (UART, CAN ou rádio; não implementada).
+  -- O fluxo fim a fim termina aqui; 1 ms cobre a transmissão de 8 bytes
+  -- numa UART a 115200 baud (8 x 10 bits / 115200 bit/s = 0,7 ms).
+  device OutputIf
+    features
+      msg_in      : in event data port SG_Types::Msg.impl;  -- a transmitir
+      buffer_full : in event port;                          -- estado (RQ05)
+      link_down   : out event port;                         -- saída caiu (RQ10)
+      link_up     : out event port;                         -- saída voltou (RQ10)
+      bus_ic      : requires bus access SocBus;
+    flows
+      snk : flow sink msg_in { Latency => 0 ms .. 1 ms; };
+  end OutputIf;
+
+end SG_Platform;
