@@ -1,0 +1,33 @@
+Latency analysis with preference settings: asynchronous system/partition end/worst case as deadline/best case as empty queue/queuing latency disabled
+
+"Latency results for end-to-end flow 'e2e_critical' of system 'SensorGatewaySoC.impl' "
+
+Result,Min Specified,Min Actual,Min Method,Max Specified,Max Actual,Max Method,Comments
+device motion_sensor (source src),0.0ms,0.0ms,no sampling/queuing latency,1.0ms,1.0ms,deadline
+(bus soc_bus),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued,Ignoring queuing time of 0.0ms
+(bus soc_bus),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection motion_sensor.msg_out -> acquisition.receiver.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread acquisition.receiver (path fp),0.0ms,0.0ms,queued,0.0ms,20.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case empty queue
+thread acquisition.receiver (path fp),0.0ms,0.2ms,processing time,0.0ms,5.0ms,deadline
+connection acquisition.receiver.msg_out -> classification.msg_classifier.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread classification.msg_classifier (path fp_crit),0.0ms,0.0ms,queued,0.0ms,20.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case empty queue
+thread classification.msg_classifier (path fp_crit),0.0ms,0.2ms,processing time,0.0ms,5.0ms,deadline
+connection msg_classifier.crit_out -> buffer_mgr.crit_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread classification.buffer_mgr (path fp_crit),0.0ms,0.0ms,queued,0.0ms,10.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case empty queue
+thread classification.buffer_mgr (path fp_crit),0.0ms,0.1ms,processing time,0.0ms,5.0ms,deadline
+connection classification.buffer_mgr.crit_out -> transmission.arbiter.crit_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread transmission.arbiter (path fp_crit),0.0ms,0.0ms,queued,0.0ms,40.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case empty queue
+thread transmission.arbiter (path fp_crit),0.0ms,1.0ms,processing time,0.0ms,10.0ms,deadline
+(bus soc_bus),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued,Ignoring queuing time of 0.0ms
+(bus soc_bus),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection transmission.arbiter.msg_out -> out_if.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+device out_if (sink snk),0.0ms,0.0ms,no sampling/queuing latency,1.0ms,1.0ms,specified
+Latency Total,0.0ms,1.5ms,,2.0ms,117.0ms
+Specified End To End Latency,,0.0ms,,,100.0ms
+End to end Latency Summary
+INFO,Minimum actual latency total 1.50ms is greater or equal to expected minimum end to end latency 0.000ms
+ERROR,Maximum actual latency total 117.0ms exceeds expected maximum end to end latency 100.0ms
+WARNING,Jitter of actual latency total 1.50..117.0ms exceeds expected end to end latency jitter 0.000..100.0ms
+
+
+

@@ -1,0 +1,33 @@
+Latency analysis with preference settings: synchronous system/partition end/worst case as max compute execution time/best case as full queue min compute execution time/queuing latency enabled
+
+"Latency results for end-to-end flow 'e2e_critical' of system 'SensorGatewaySoC.impl' "
+
+Result,Min Specified,Min Actual,Min Method,Max Specified,Max Actual,Max Method,Comments
+device motion_sensor (source src),0.0ms,0.0ms,no sampling/queuing latency,1.0ms,1.0ms,specified
+(bus soc_bus),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued
+(bus soc_bus),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection motion_sensor.msg_out -> acquisition.receiver.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread acquisition.receiver (path fp),0.0ms,20.0ms,queued,0.0ms,20.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case full queue
+thread acquisition.receiver (path fp),0.0ms,0.2ms,processing time,0.0ms,0.5ms,processing time
+connection acquisition.receiver.msg_out -> classification.msg_classifier.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread classification.msg_classifier (path fp_crit),0.0ms,20.0ms,queued,0.0ms,20.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case full queue
+thread classification.msg_classifier (path fp_crit),0.0ms,0.2ms,processing time,0.0ms,0.5ms,processing time
+connection msg_classifier.crit_out -> buffer_mgr.crit_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread classification.buffer_mgr (path fp_crit),0.0ms,10.0ms,queued,0.0ms,10.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case full queue
+thread classification.buffer_mgr (path fp_crit),0.0ms,0.1ms,processing time,0.0ms,0.3ms,processing time
+connection classification.buffer_mgr.crit_out -> transmission.arbiter.crit_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+thread transmission.arbiter (path fp_crit),0.0ms,40.0ms,queued,0.0ms,40.0ms,queued,Sporadic or periodic has period delay per queue element,Assume best case full queue
+thread transmission.arbiter (path fp_crit),0.0ms,1.0ms,processing time,0.0ms,2.0ms,processing time
+(bus soc_bus),0.0ms,0.0ms,queued,0.0ms,0.0ms,queued
+(bus soc_bus),0.0ms,0.0ms,sampling protocol/bus,0.0ms,0.0ms,sampling protocol/bus
+connection transmission.arbiter.msg_out -> out_if.msg_in,0.0ms,0.0ms,no sampling/queuing latency,0.0ms,0.0ms,no sampling/queuing latency
+device out_if (sink snk),0.0ms,0.0ms,no sampling/queuing latency,1.0ms,1.0ms,specified
+Latency Total,0.0ms,91.5ms,,2.0ms,95.3ms
+Specified End To End Latency,,0.0ms,,,100.0ms
+End to end Latency Summary
+INFO,Minimum actual latency total 91.5ms is greater or equal to expected minimum end to end latency 0.000ms
+INFO,Maximum actual latency total 95.3ms is less or equal to expected maximum end to end latency 100.0ms
+INFO,Jitter of actual flow latency 91.5..95.3ms is within expected end to end latency jitter 0.000..100.0ms
+
+
+

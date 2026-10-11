@@ -18,15 +18,16 @@ public
   bus SocBus
   end SocBus;
 
-  -- CPU + escalonador. A política é Rate Monotonic (contrato 6.1).
-  -- Para a análise de escalonabilidade, descomente as duas linhas abaixo
-  -- e confira o valor exato com Ctrl+Espaço: a lista de valores aceitos
-  -- vem do property set AADL_Project e muda entre versões.
+  -- CPU + escalonador de prioridade fixa com preempção, política Rate
+  -- Monotonic: é o que dá significado às prioridades das threads.
+  -- Se o OSATE marcar erro no valor, apague RMS e use Ctrl+Espaço dentro
+  -- dos parênteses: a lista de valores aceitos vem do property set
+  -- AADL_Project e muda entre versões.
   processor Cpu
     features
       bus_ic : requires bus access SocBus;
-    -- properties
-    --   Scheduling_Protocol => (RMS);
+    properties
+      Scheduling_Protocol => (RMS);
   end Cpu;
 
   -- Guarda configuração, filas e contadores (ConfigurationMemory, MessageBuffer)
@@ -46,12 +47,17 @@ public
   -- Interface comum aos três sensores, herdada pelos tipos abaixo.
   -- O fluxo fim a fim nasce aqui; 1 ms é o tempo do controlador entre a
   -- detecção e a mensagem pronta na porta.
+  -- O Deadline de 1 ms repete esse tempo: sem ele, o deadline padrão é o
+  -- período (100 ms no sensor de movimento), e a análise de latência no
+  -- modo "pior caso = deadline" contaria 100 ms só na origem.
   device Sensor
     features
       msg_out : out event data port SG_Types::Msg.impl;
       bus_ic  : requires bus access SocBus;
     flows
       src : flow source msg_out { Latency => 0 ms .. 1 ms; };
+    properties
+      Deadline => 1 ms;
   end Sensor;
 
   device TempSensor extends Sensor
@@ -66,7 +72,9 @@ public
       Period            => 500 ms;
   end LightSensor;
 
-  -- Movimento só envia quando detecta: esporádico, intervalo mínimo de 100 ms
+  -- Movimento só envia quando detecta: esporádico, intervalo mínimo de 100 ms.
+  -- Hipótese sobre o ambiente: o controlador do sensor nunca envia mais de
+  -- um evento a cada 100 ms. Toda a conta de taxa de chegada depende disso.
   device MotionSensor extends Sensor
     properties
       Dispatch_Protocol => Sporadic;

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="ASCII"?>
+<result:AnalysisResult xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:result="http://www.osate.org/result/Result" analysis="latency" message="SS-PE-ET-FQ-EQL">
+  <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0"/>
+  <parameters value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787000"/>
+  <parameters value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787000"/>
+  <parameters value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787000"/>
+  <parameters value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787000"/>
+  <parameters value="ACED0005737200116A6176612E6C616E672E426F6F6C65616ECD207280D59CFAEE0200015A000576616C7565787000"/>
+  <results message="Latency results for e2e_critical" resultType="SUCCESS">
+    <values xsi:type="result:StringValue" value=""/>
+    <values xsi:type="result:RealValue" value="91.5"/>
+    <values xsi:type="result:RealValue" value="95.3"/>
+    <values xsi:type="result:RealValue"/>
+    <values xsi:type="result:RealValue" value="2.0"/>
+    <values xsi:type="result:RealValue"/>
+    <values xsi:type="result:RealValue" value="100.0"/>
+    <diagnostics diagnosticType="INFO" message="Minimum actual latency total 91.5ms is greater or equal to expected minimum end to end latency 0.000ms">
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@endToEndFlow.0"/>
+    </diagnostics>
+    <diagnostics diagnosticType="INFO" message="Maximum actual latency total 95.3ms is less or equal to expected maximum end to end latency 100.0ms">
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@endToEndFlow.0"/>
+    </diagnostics>
+    <diagnostics diagnosticType="INFO" message="Jitter of actual flow latency 91.5..95.3ms is within expected end to end latency jitter 0.000..100.0ms">
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@endToEndFlow.0"/>
+    </diagnostics>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue" value="1.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue" value="1.0"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="specified"/>
+      <values xsi:type="result:StringValue" value="source src"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.3"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value=""/>
+      <subResults>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:StringValue" value="queued"/>
+        <values xsi:type="result:StringValue" value="queued"/>
+        <values xsi:type="result:StringValue" value=""/>
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.0"/>
+      </subResults>
+      <subResults>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:StringValue" value="sampling protocol/bus"/>
+        <values xsi:type="result:StringValue" value="sampling protocol/bus"/>
+        <values xsi:type="result:StringValue" value=""/>
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.0"/>
+      </subResults>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@connectionInstance.17"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="20.0"/>
+      <values xsi:type="result:RealValue" value="20.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="path fp"/>
+      <diagnostics diagnosticType="INFO" message="Sporadic or periodic has period delay per queue element">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.6/@componentInstance.0"/>
+      </diagnostics>
+      <diagnostics diagnosticType="INFO" message="Assume best case full queue">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.6/@componentInstance.0"/>
+      </diagnostics>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.6/@componentInstance.0"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="0.2"/>
+      <values xsi:type="result:RealValue" value="0.5"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="path fp"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.6/@componentInstance.0"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value=""/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@connectionInstance.18"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="20.0"/>
+      <values xsi:type="result:RealValue" value="20.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <diagnostics diagnosticType="INFO" message="Sporadic or periodic has period delay per queue element">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.1"/>
+      </diagnostics>
+      <diagnostics diagnosticType="INFO" message="Assume best case full queue">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.1"/>
+      </diagnostics>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.1"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="0.2"/>
+      <values xsi:type="result:RealValue" value="0.5"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.1"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value=""/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@connectionInstance.1"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="10.0"/>
+      <values xsi:type="result:RealValue" value="10.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <diagnostics diagnosticType="INFO" message="Sporadic or periodic has period delay per queue element">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.2"/>
+      </diagnostics>
+      <diagnostics diagnosticType="INFO" message="Assume best case full queue">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.2"/>
+      </diagnostics>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.2"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="0.1"/>
+      <values xsi:type="result:RealValue" value="0.3"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.7/@componentInstance.2"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value=""/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@connectionInstance.19"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="40.0"/>
+      <values xsi:type="result:RealValue" value="40.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="queued"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <diagnostics diagnosticType="INFO" message="Sporadic or periodic has period delay per queue element">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.8/@componentInstance.0"/>
+      </diagnostics>
+      <diagnostics diagnosticType="INFO" message="Assume best case full queue">
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.8/@componentInstance.0"/>
+      </diagnostics>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.8/@componentInstance.0"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue" value="1.0"/>
+      <values xsi:type="result:RealValue" value="2.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="processing time"/>
+      <values xsi:type="result:StringValue" value="path fp_crit"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.8/@componentInstance.0"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value=""/>
+      <subResults>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:StringValue" value="queued"/>
+        <values xsi:type="result:StringValue" value="queued"/>
+        <values xsi:type="result:StringValue" value=""/>
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.0"/>
+      </subResults>
+      <subResults>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:RealValue"/>
+        <values xsi:type="result:StringValue" value="sampling protocol/bus"/>
+        <values xsi:type="result:StringValue" value="sampling protocol/bus"/>
+        <values xsi:type="result:StringValue" value=""/>
+        <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.0"/>
+      </subResults>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@connectionInstance.21"/>
+    </subResults>
+    <subResults>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue" value="1.0"/>
+      <values xsi:type="result:RealValue"/>
+      <values xsi:type="result:RealValue" value="1.0"/>
+      <values xsi:type="result:StringValue" value="no sampling/queuing latency"/>
+      <values xsi:type="result:StringValue" value="specified"/>
+      <values xsi:type="result:StringValue" value="sink snk"/>
+      <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@componentInstance.4"/>
+    </subResults>
+    <modelElement href="../../SG_System_SensorGatewaySoC_impl_Instance.aaxl2#/0/@endToEndFlow.0"/>
+  </results>
+</result:AnalysisResult>

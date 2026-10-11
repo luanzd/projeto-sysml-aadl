@@ -39,14 +39,21 @@ public
 
   -- StatisticsManager: contadores por sensor e de buffer cheio (RQ06).
   -- Periódica e de baixa prioridade: a cada segundo processa todos os
-  -- relatórios acumulados de uma vez (AllItems).
+  -- relatórios acumulados de uma vez (AllItems). A fila de 16 cobre a taxa
+  -- máxima de chegada (2 + 2 + 10 = 14 mensagens/s).
+  -- buffer_full também precisa de fila e de AllItems: sem eles, a fila tem
+  -- 1 posição e a thread retira 1 evento por despacho, então vários
+  -- "buffer cheio" no mesmo segundo seriam contados como um só.
   thread Statistics
     features
       report_in   : in event data port SG_Types::RxReport.impl {
         Queue_Size       => 16;
         Dequeue_Protocol => AllItems;
       };
-      buffer_full : in event port;
+      buffer_full : in event port {
+        Queue_Size       => 16;
+        Dequeue_Protocol => AllItems;
+      };
     properties
       Dispatch_Protocol      => Periodic;
       Period                 => 1000 ms;
@@ -79,13 +86,23 @@ public
   end MsgClassifier;
 
   -- MessageBuffer (controle): encaminha cada mensagem para a fila certa do
-  -- árbitro e controla a ocupação por CRÉDITOS, como o controle de fluxo de
-  -- uma NoC: começa com 4 créditos críticos e 16 periódicos, gasta um a cada
-  -- mensagem enviada e recebe um de volta a cada mensagem que o árbitro
-  -- transmite. Sem créditos numa fila = fila cheia = sinaliza BufferFull (RQ05).
+  -- árbitro e controla a ocupação por CRÉDITOS: começa com 4 créditos
+  -- críticos e 16 periódicos, gasta um a cada mensagem enviada e recebe um
+  -- de volta a cada mensagem que o árbitro transmite. Isso é necessário
+  -- porque uma thread não enxerga a ocupação da fila de outra thread.
+  -- Sem créditos numa fila = fila cheia = sinaliza BufferFull (RQ05).
+  --
+  -- Política de descarte (TC04): sem crédito, a mensagem que acabou de
+  -- chegar é descartada, contada e BufferFull é sinalizado. Por isso as
+  -- filas do árbitro nunca transbordam; o descarte acontece aqui.
+  -- A fila de trânsito crítica usa Error para que, se ela própria encher,
+  -- uma mensagem crítica nunca suma em silêncio (o padrão seria DropOldest).
   thread BufferMgr
     features
-      crit_in     : in event data port SG_Types::Msg.impl { Queue_Size => 2; };  -- trânsito
+      crit_in     : in event data port SG_Types::Msg.impl {               -- trânsito
+        Queue_Size                 => 2;
+        Overflow_Handling_Protocol => Error;
+      };
       per_in      : in event data port SG_Types::Msg.impl { Queue_Size => 2; };  -- trânsito
       crit_out    : out event data port SG_Types::Msg.impl;
       per_out     : out event data port SG_Types::Msg.impl;
@@ -107,9 +124,13 @@ public
   -- (RQ04, RQ12). Cada disparo transmite uma mensagem: se as duas filas têm
   -- mensagens, a Urgency maior escolhe a crítica (prioridade estrita, RQ03).
   -- Esporádica com intervalo mínimo de 10 ms = no máximo 100 msg/s na saída.
-  -- Com o enlace caído (link_down) não transmite: as mensagens ficam nas
-  -- filas e a política de cada fila decide o que acontece quando ela enche
-  -- (RQ10).
+  -- Com o enlace caído (link_down) não transmite e retém as mensagens até
+  -- link_up (RQ10). A capacidade continua garantida pelos créditos do
+  -- BufferMgr, que contam as mensagens sob guarda do árbitro.
+  -- Com os créditos funcionando estas filas nunca transbordam: as políticas
+  -- Error e DropOldest abaixo são rede de segurança, não a política normal.
+  -- link_down/link_up têm a maior Urgency para que uma mudança de estado do
+  -- enlace seja tratada antes de qualquer mensagem pendente.
   thread Arbiter
     features
       crit_in : in event data port SG_Types::Msg.impl {
@@ -125,8 +146,8 @@ public
       msg_out     : out event data port SG_Types::Msg.impl;
       crit_credit : out event port;   -- devolve crédito a cada crítica transmitida
       per_credit  : out event port;   -- devolve crédito a cada periódica transmitida
-      link_down   : in event port;
-      link_up     : in event port;
+      link_down   : in event port { Urgency => 3; };
+      link_up     : in event port { Urgency => 3; };
     flows
       fp_crit : flow path crit_in -> msg_out;
       fp_per  : flow path per_in -> msg_out;

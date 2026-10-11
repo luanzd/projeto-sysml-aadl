@@ -20,6 +20,7 @@ public
       Data_Size => 8 Bytes;
   end Msg;
 
+
   data implementation Msg.impl
     subcomponents
       source_id : data Base_Types::Unsigned_8;   -- 0 temp, 1 luz, 2 movimento
@@ -36,11 +37,11 @@ public
       Data_Size => 2 Bytes;
   end RxReport;
 
-  data implementation RxReport.impl
-    subcomponents
-      source_id : data Base_Types::Unsigned_8;
-      valid     : data Base_Types::Boolean;
-  end RxReport.impl;
+ data implementation RxReport.impl
+  subcomponents
+    source_id : data Base_Types::Unsigned_8;
+    valid     : data Base_Types::Boolean { Data_Size => 1 Bytes; };
+end RxReport.impl;
 
   -- Configuração lida pelo classificador: limite de temperatura acima do
   -- qual a leitura vira crítica (ConfigurationMemory, contrato 2.3).
