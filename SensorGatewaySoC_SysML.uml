@@ -133,13 +133,53 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lP06AMTuEfGtoOjGqlPCkg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lP06AcTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_C8Yp4MU5EfGfz5tzhjvfAQ" name="Connector8">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_C8cUQMU5EfGfz5tzhjvfAQ" partWithPort="_lP0S8sTuEfGtoOjGqlPCkg" role="_SaflYMUzEfGfz5tzhjvfAQ"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_C8c7UMU5EfGfz5tzhjvfAQ" partWithPort="_kfbX0sTuEfGtoOjGqlPCkg" role="_gOkrMMUxEfGfz5tzhjvfAQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_JOTT4MU5EfGfz5tzhjvfAQ" name="Connector9">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JOVJEMU5EfGfz5tzhjvfAQ" partWithPort="_lP0S8sTuEfGtoOjGqlPCkg" role="_Ugx8cMUzEfGfz5tzhjvfAQ"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JOVwIMU5EfGfz5tzhjvfAQ" partWithPort="_f5VWcsTuEfGtoOjGqlPCkg" role="_CCbYgMU4EfGfz5tzhjvfAQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_c0WGYMU5EfGfz5tzhjvfAQ" name="Connector11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_c0WtcMU5EfGfz5tzhjvfAQ" partWithPort="_gzGQAMTuEfGtoOjGqlPCkg" role="_RsfvkMU2EfGfz5tzhjvfAQ"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_c0XUgMU5EfGfz5tzhjvfAQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_qU128MU5EfGfz5tzhjvfAQ" name="Connector11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_qU3FEMU5EfGfz5tzhjvfAQ" partWithPort="_kfbX0sTuEfGtoOjGqlPCkg" role="_rMULIMUxEfGfz5tzhjvfAQ"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_qU3sIMU5EfGfz5tzhjvfAQ" partWithPort="_fH4rYMTuEfGtoOjGqlPCkg" role="_u6mawMUxEfGfz5tzhjvfAQ"/>
+        </ownedConnector>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_IqHd0MTuEfGtoOjGqlPCkg" name="SensorInterface"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_JYe_sMTuEfGtoOjGqlPCkg" name="MessageFormatter"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Kk8LwMTuEfGtoOjGqlPCkg" name="MessageBuffer"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_L2LKIMTuEfGtoOjGqlPCkg" name="PriorityArbiter"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_MxT8sMTuEfGtoOjGqlPCkg" name="OutputInterface"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_NzOssMTuEfGtoOjGqlPCkg" name="StatisticsManager"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IqHd0MTuEfGtoOjGqlPCkg" name="SensorInterface">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_3OsicMUyEfGfz5tzhjvfAQ" name="in_light" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_H3JicMUzEfGfz5tzhjvfAQ" name="in_motion" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_LAggEMUzEfGfz5tzhjvfAQ" name="in_temp" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SaflYMUzEfGfz5tzhjvfAQ" name="out_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Ugx8cMUzEfGfz5tzhjvfAQ" name="out_stats" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JYe_sMTuEfGtoOjGqlPCkg" name="MessageFormatter">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_gOkrMMUxEfGfz5tzhjvfAQ" name="in_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_rMULIMUxEfGfz5tzhjvfAQ" name="out_msg" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Kk8LwMTuEfGtoOjGqlPCkg" name="MessageBuffer">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_u6mawMUxEfGfz5tzhjvfAQ" name="in_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_w80xMMUxEfGfz5tzhjvfAQ" name="out_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_yH7SYMUxEfGfz5tzhjvfAQ" name="in_credit" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_zacDIMUxEfGfz5tzhjvfAQ" name="out_full" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L2LKIMTuEfGtoOjGqlPCkg" name="PriorityArbiter">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_PEZ94MU0EfGfz5tzhjvfAQ" name="in_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SnN9UMU0EfGfz5tzhjvfAQ" name="in_link" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_RsfvkMU2EfGfz5tzhjvfAQ" name="out_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_TExKEMU2EfGfz5tzhjvfAQ" name="out_credit" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MxT8sMTuEfGtoOjGqlPCkg" name="OutputInterface">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QrnE4MU3EfGfz5tzhjvfAQ" name="in_msg" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_auKu8MU3EfGfz5tzhjvfAQ" name="out_link" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NzOssMTuEfGtoOjGqlPCkg" name="StatisticsManager">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_CCbYgMU4EfGfz5tzhjvfAQ" name="in_report" aggregation="composite"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_PSdDwMTuEfGtoOjGqlPCkg" name="ConfigurationMemory"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_fH1oEMTuEfGtoOjGqlPCkg" memberEnd="_fH4rYMTuEfGtoOjGqlPCkg _fH7HoMTuEfGtoOjGqlPCkg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fH4EUMTuEfGtoOjGqlPCkg" source="org.eclipse.papyrus">
@@ -281,4 +321,12 @@
   <Blocks:Block xmi:id="_MxaqYMTuEfGtoOjGqlPCkg" base_Class="_MxT8sMTuEfGtoOjGqlPCkg"/>
   <Blocks:Block xmi:id="_NzUMQMTuEfGtoOjGqlPCkg" base_Class="_NzOssMTuEfGtoOjGqlPCkg"/>
   <Blocks:Block xmi:id="_PSijUMTuEfGtoOjGqlPCkg" base_Class="_PSdDwMTuEfGtoOjGqlPCkg"/>
+  <Blocks:NestedConnectorEnd xmi:id="_C8eJcMU5EfGfz5tzhjvfAQ" base_Element="_C8cUQMU5EfGfz5tzhjvfAQ" propertyPath="_lP0S8sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_C8cUQMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_C8f-oMU5EfGfz5tzhjvfAQ" base_Element="_C8c7UMU5EfGfz5tzhjvfAQ" propertyPath="_kfbX0sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_C8c7UMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_JOWXMMU5EfGfz5tzhjvfAQ" base_Element="_JOVJEMU5EfGfz5tzhjvfAQ" propertyPath="_lP0S8sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_JOVJEMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_JOXlUMU5EfGfz5tzhjvfAQ" base_Element="_JOVwIMU5EfGfz5tzhjvfAQ" propertyPath="_f5VWcsTuEfGtoOjGqlPCkg" base_ConnectorEnd="_JOVwIMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_c0XUgcU5EfGfz5tzhjvfAQ" base_Element="_c0WtcMU5EfGfz5tzhjvfAQ" propertyPath="_gzGQAMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_c0WtcMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_c0XUgsU5EfGfz5tzhjvfAQ" base_Element="_c0XUgMU5EfGfz5tzhjvfAQ" propertyPath="_kfbX0sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_c0XUgMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_qU3sIcU5EfGfz5tzhjvfAQ" base_Element="_qU3FEMU5EfGfz5tzhjvfAQ" propertyPath="_kfbX0sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_qU3FEMU5EfGfz5tzhjvfAQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_qU4TMMU5EfGfz5tzhjvfAQ" base_Element="_qU3sIMU5EfGfz5tzhjvfAQ" propertyPath="_fH4rYMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_qU3sIMU5EfGfz5tzhjvfAQ"/>
 </xmi:XMI>
