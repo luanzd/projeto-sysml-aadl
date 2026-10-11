@@ -87,21 +87,21 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEIsMpEfGJKsbJZCqV3Q" name="uc04 - tratar mensagem inválida" type="_iyeaoMMpEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEI8MpEfGJKsbJZCqV3Q" name="sistema externo de supervisão" type="_SuGigMJBEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_DKF-AMMxEfGI7b74Kq5rsg" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_gBTv8MF7EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_GRQjQMMxEfGI7b74Kq5rsg" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_HlnHEMMxEfGI7b74Kq5rsg" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_llxBkMF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_IlxjkMMxEfGI7b74Kq5rsg" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_6fj68MF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Pi8KAMMxEfGI7b74Kq5rsg" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_QtZyAMMxEfGI7b74Kq5rsg" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_gBTv8MF7EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_TZ7CoMMxEfGI7b74Kq5rsg" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_rZvLUMF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ug4qsMMxEfGI7b74Kq5rsg" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_vzVo0MF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Vf6ewMMxEfGI7b74Kq5rsg" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_wznVQMHYEfGwWInniLvjbQ"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZsNgEMMxEfGI7b74Kq5rsg" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_ONfZUMHZEfGwWInniLvjbQ"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_a1CwYMMxEfGI7b74Kq5rsg" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_nvIh0MF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_bulAcMMxEfGI7b74Kq5rsg" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_7ZJOUMF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_we3YgMMxEfGI7b74Kq5rsg" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_o63VIMF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_xvi9QMMxEfGI7b74Kq5rsg" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_p_JcoMF8EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_2F4EUMMxEfGI7b74Kq5rsg" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_o63VIMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_JANkAMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_6fj68MF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_M9KhwMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_OGdsIMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_gBTv8MF7EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_P-83wMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_cJsvYMEyEfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Vc8xgMV6EfG4QflBFXdp_g" name="Refine22" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_rZvLUMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Y4hggMV6EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_vzVo0MF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_aJhOUMV6EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_wznVQMHYEfGwWInniLvjbQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_1deSQMV7EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_2dm5kMV7EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_gBTv8MF7EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_7_KdoMV7EfG4QflBFXdp_g" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_ONfZUMHZEfGwWInniLvjbQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_82rUcMV7EfG4QflBFXdp_g" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_nvIh0MF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_9uHSwMV7EfG4QflBFXdp_g" name="Refine29" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_7ZJOUMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_C3UoQMV8EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_o63VIMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_E7b1EMV8EfG4QflBFXdp_g" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_o63VIMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_FqvyIMV8EfG4QflBFXdp_g" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_p_JcoMF8EfGNKtEunPCNwA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_haTGUMEyEfGNKtEunPCNwA" name="Estrutura">
       <packagedElement xmi:type="uml:Class" xmi:id="_GZJgwMTuEfGtoOjGqlPCkg" name="SensorGatewaySoC">
@@ -315,21 +315,7 @@
   <Requirements:Requirement xmi:id="_7ZLqkMF8EfGNKtEunPCNwA" base_NamedElement="_7ZJOUMF8EfGNKtEunPCNwA" id="RQ10" text="O sistema deve entrar em modo de degradação se a interface de saída estiver indisponível." base_Class="_7ZJOUMF8EfGNKtEunPCNwA"/>
   <Requirements:Requirement xmi:id="_w0JgwMHYEfGwWInniLvjbQ" base_NamedElement="_wznVQMHYEfGwWInniLvjbQ" id="RQ11" text="O evento crítico de movimento deve ser transmitido à saída em no máximo 100 ms." base_Class="_wznVQMHYEfGwWInniLvjbQ"/>
   <Requirements:Requirement xmi:id="_ONqYcMHZEfGwWInniLvjbQ" base_NamedElement="_ONfZUMHZEfGwWInniLvjbQ" id="RQ12" text="O buffer deve ter capacidade limitada de 4 mensagens críticas e 16 mensagens periódicas." base_Class="_ONfZUMHZEfGwWInniLvjbQ"/>
-  <Requirements:Satisfy xmi:id="_DKMEoMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_DKF-AMMxEfGI7b74Kq5rsg" base_Abstraction="_DKF-AMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_GRVbwMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_GRQjQMMxEfGI7b74Kq5rsg" base_Abstraction="_GRQjQMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_HlpjUMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_HlnHEMMxEfGI7b74Kq5rsg" base_Abstraction="_HlnHEMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_Il11AMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_IlxjkMMxEfGI7b74Kq5rsg" base_Abstraction="_IlxjkMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_PjBCgMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_Pi8KAMMxEfGI7b74Kq5rsg" base_Abstraction="_Pi8KAMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_QthGwMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_QtZyAMMxEfGI7b74Kq5rsg" base_Abstraction="_QtZyAMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_TZ-F8MMxEfGI7b74Kq5rsg" base_DirectedRelationship="_TZ7CoMMxEfGI7b74Kq5rsg" base_Abstraction="_TZ7CoMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_Ug6f4MMxEfGI7b74Kq5rsg" base_DirectedRelationship="_Ug4qsMMxEfGI7b74Kq5rsg" base_Abstraction="_Ug4qsMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_Vf87AMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_Vf6ewMMxEfGI7b74Kq5rsg" base_Abstraction="_Vf6ewMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_ZsS_oMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_ZsNgEMMxEfGI7b74Kq5rsg" base_Abstraction="_ZsNgEMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_a1GawMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_a1CwYMMxEfGI7b74Kq5rsg" base_Abstraction="_a1CwYMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_bumOkMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_bulAcMMxEfGI7b74Kq5rsg" base_Abstraction="_bulAcMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_we4moMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_we3YgMMxEfGI7b74Kq5rsg" base_Abstraction="_we3YgMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_xvkycMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_xvi9QMMxEfGI7b74Kq5rsg" base_Abstraction="_xvi9QMMxEfGI7b74Kq5rsg"/>
-  <Requirements:Satisfy xmi:id="_2F55gMMxEfGI7b74Kq5rsg" base_DirectedRelationship="_2F4EUMMxEfGI7b74Kq5rsg" base_Abstraction="_2F4EUMMxEfGI7b74Kq5rsg"/>
+  <Requirements:Satisfy xmi:id="_DKMEoMMxEfGI7b74Kq5rsg"/>
   <Blocks:Block xmi:id="_GZOZQMTuEfGtoOjGqlPCkg" base_Class="_GZJgwMTuEfGtoOjGqlPCkg"/>
   <Blocks:Block xmi:id="_IqPZoMTuEfGtoOjGqlPCkg" base_Class="_IqHd0MTuEfGtoOjGqlPCkg"/>
   <Blocks:Block xmi:id="_JYmUcMTuEfGtoOjGqlPCkg" base_Class="_JYe_sMTuEfGtoOjGqlPCkg"/>
@@ -354,4 +340,19 @@
   <Blocks:NestedConnectorEnd xmi:id="_5-bdUMVtEfG4QflBFXdp_g" base_Element="_5-a2QcVtEfG4QflBFXdp_g" propertyPath="_gzGQAMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_5-a2QcVtEfG4QflBFXdp_g"/>
   <Blocks:NestedConnectorEnd xmi:id="_QSYAgMVuEfG4QflBFXdp_g" base_Element="_QSXZcMVuEfG4QflBFXdp_g" propertyPath="_fH4rYMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_QSXZcMVuEfG4QflBFXdp_g"/>
   <Blocks:NestedConnectorEnd xmi:id="_QSYnkMVuEfG4QflBFXdp_g" base_Element="_QSXZccVuEfG4QflBFXdp_g" propertyPath="_lP0S8sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_QSXZccVuEfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_JAc0kMV6EfG4QflBFXdp_g" base_DirectedRelationship="_JANkAMV6EfG4QflBFXdp_g" base_Abstraction="_JANkAMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_M9PaQMV6EfG4QflBFXdp_g" base_DirectedRelationship="_M9KhwMV6EfG4QflBFXdp_g" base_Abstraction="_M9KhwMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_OGgIYMV6EfG4QflBFXdp_g" base_DirectedRelationship="_OGdsIMV6EfG4QflBFXdp_g" base_Abstraction="_OGdsIMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_P-_7EMV6EfG4QflBFXdp_g" base_DirectedRelationship="_P-83wMV6EfG4QflBFXdp_g" base_Abstraction="_P-83wMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_VdAb4MV6EfG4QflBFXdp_g" base_DirectedRelationship="_Vc8xgMV6EfG4QflBFXdp_g" base_Abstraction="_Vc8xgMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_Y4j8wMV6EfG4QflBFXdp_g" base_DirectedRelationship="_Y4hggMV6EfG4QflBFXdp_g" base_Abstraction="_Y4hggMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_aJjqkMV6EfG4QflBFXdp_g" base_DirectedRelationship="_aJhOUMV6EfG4QflBFXdp_g" base_Abstraction="_aJhOUMV6EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_1dgugMV7EfG4QflBFXdp_g" base_DirectedRelationship="_1deSQMV7EfG4QflBFXdp_g" base_Abstraction="_1deSQMV7EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_2dtAMMV7EfG4QflBFXdp_g" base_DirectedRelationship="_2dm5kMV7EfG4QflBFXdp_g" base_Abstraction="_2dm5kMV7EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_7_MS0MV7EfG4QflBFXdp_g" base_DirectedRelationship="_7_KdoMV7EfG4QflBFXdp_g" base_Abstraction="_7_KdoMV7EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_82vl4MV7EfG4QflBFXdp_g" base_DirectedRelationship="_82rUcMV7EfG4QflBFXdp_g" base_Abstraction="_82rUcMV7EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_9uJH8MV7EfG4QflBFXdp_g" base_DirectedRelationship="_9uHSwMV7EfG4QflBFXdp_g" base_Abstraction="_9uHSwMV7EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_C3WdcMV8EfG4QflBFXdp_g" base_DirectedRelationship="_C3UoQMV8EfG4QflBFXdp_g" base_Abstraction="_C3UoQMV8EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_E7gtkMV8EfG4QflBFXdp_g" base_DirectedRelationship="_E7b1EMV8EfG4QflBFXdp_g" base_Abstraction="_E7b1EMV8EfG4QflBFXdp_g"/>
+  <Requirements:Refine xmi:id="_FqxnUMV8EfG4QflBFXdp_g" base_DirectedRelationship="_FqvyIMV8EfG4QflBFXdp_g" base_Abstraction="_FqvyIMV8EfG4QflBFXdp_g"/>
 </xmi:XMI>
