@@ -2542,13 +2542,13 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_u6qsMMUxEfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_u6qsMsUxEfGfz5tzhjvfAQ" type="Port_NameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_u6qsM8UxEfGfz5tzhjvfAQ" x="-165" y="1"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_u6qsM8UxEfGfz5tzhjvfAQ" x="23" y="14"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_u6rTQMUxEfGfz5tzhjvfAQ" type="Port_StereotypeLabel">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_u6rTQcUxEfGfz5tzhjvfAQ" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_u6mawMUxEfGfz5tzhjvfAQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6qsMcUxEfGfz5tzhjvfAQ" x="-10" y="83" width="20" height="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6qsMcUxEfGfz5tzhjvfAQ" x="190" y="110" width="20" height="20"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_w830gMUxEfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_w84bkMUxEfGfz5tzhjvfAQ" type="Port_NameLabel">
@@ -2572,16 +2572,16 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_zaefYMUxEfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_zafGcMUxEfGfz5tzhjvfAQ" type="Port_NameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_zafGccUxEfGfz5tzhjvfAQ" x="25" y="3"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zafGccUxEfGfz5tzhjvfAQ" x="13" y="33"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_zafGcsUxEfGfz5tzhjvfAQ" type="Port_StereotypeLabel">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_zafGc8UxEfGfz5tzhjvfAQ" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_zacDIMUxEfGfz5tzhjvfAQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaefYcUxEfGfz5tzhjvfAQ" x="280" y="86"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaefYcUxEfGfz5tzhjvfAQ" x="24" y="110"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_fH4rYMTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-i5rgcUUEfG4wZ464F_esg" x="1174" y="178" width="290" height="120"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-i5rgcUUEfG4wZ464F_esg" x="1274" y="178" width="220" height="120"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="__FFykMUUEfG4wZ464F_esg" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="__FGZoMUUEfG4wZ464F_esg" type="Property_NameLabel"/>
@@ -2607,7 +2607,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCeb0cU4EfGfz5tzhjvfAQ" x="-10" y="10"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_f5VWcsTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FFykcUUEfG4wZ464F_esg" x="1174" y="458" width="300"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FFykcUUEfG4wZ464F_esg" x="1474" y="758" width="300"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="__fJRUMUUEfG4wZ464F_esg" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="__fJRUsUUEfG4wZ464F_esg" type="Property_NameLabel"/>
@@ -2624,13 +2624,13 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_PEdoQMU0EfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_PEePUMU0EfGfz5tzhjvfAQ" type="Port_NameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_PEePUcU0EfGfz5tzhjvfAQ" x="-157" y="3"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_PEePUcU0EfGfz5tzhjvfAQ" x="16" y="30"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_PEePUsU0EfGfz5tzhjvfAQ" type="Port_StereotypeLabel">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_PEePU8U0EfGfz5tzhjvfAQ" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_PEZ94MU0EfGfz5tzhjvfAQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PEdoQcU0EfGfz5tzhjvfAQ" x="-10" y="19"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PEdoQcU0EfGfz5tzhjvfAQ" x="218" y="111"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_SnRnsMU0EfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_SnSOwMU0EfGfz5tzhjvfAQ" type="Port_NameLabel">
@@ -2640,7 +2640,7 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="_SnSOw8U0EfGfz5tzhjvfAQ" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_SnN9UMU0EfGfz5tzhjvfAQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SnRnscU0EfGfz5tzhjvfAQ" x="-10" y="94"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SnRnscU0EfGfz5tzhjvfAQ" x="-10" y="26"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_RshkwMU2EfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_RshkwsU2EfGfz5tzhjvfAQ" type="Port_NameLabel">
@@ -2654,16 +2654,16 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_TEy_QMU2EfGfz5tzhjvfAQ" type="Port_Shape">
             <children xmi:type="notation:DecorationNode" xmi:id="_TEy_QsU2EfGfz5tzhjvfAQ" type="Port_NameLabel">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_TEy_Q8U2EfGfz5tzhjvfAQ" x="25" y="3"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TEy_Q8U2EfGfz5tzhjvfAQ" x="-176" y="-10"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_TEy_RMU2EfGfz5tzhjvfAQ" type="Port_StereotypeLabel">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_TEy_RcU2EfGfz5tzhjvfAQ" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_TExKEMU2EfGfz5tzhjvfAQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEy_QcU2EfGfz5tzhjvfAQ" x="271" y="90"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEy_QcU2EfGfz5tzhjvfAQ" x="-10" y="90"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_gzGQAMTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fJRUcUUEfG4wZ464F_esg" x="654" y="638" width="281" height="121"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fJRUcUUEfG4wZ464F_esg" x="1274" y="18" width="261" height="121"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_CFMtkMUVEfG4wZ464F_esg" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_CFNUoMUVEfG4wZ464F_esg" type="Property_NameLabel"/>
@@ -2699,7 +2699,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auOZUcU3EfGfz5tzhjvfAQ" x="270" y="10"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_ihE0wsTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFMtkcUVEfG4wZ464F_esg" x="94" y="338" width="280"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFMtkcUVEfG4wZ464F_esg" x="654" y="18" width="280"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_ZaUdEMUZEfG4wZ464F_esg" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_ZaVEIMUZEfG4wZ464F_esg" type="Property_NameLabel"/>
@@ -2747,7 +2747,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rMX1gcUxEfGfz5tzhjvfAQ" x="282" y="10"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_kfbX0sTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqjRccUZEfG4wZ464F_esg" x="554" y="218" width="300"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZqjRccUZEfG4wZ464F_esg" x="1314" y="478" width="300"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Z-YMYMUZEfG4wZ464F_esg" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_Z-YMYsUZEfG4wZ464F_esg" type="Property_NameLabel"/>
@@ -2812,8 +2812,18 @@
             <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_Ugx8cMUzEfGfz5tzhjvfAQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ug2N4cUzEfGfz5tzhjvfAQ" x="310" y="123"/>
           </children>
+          <children xmi:type="notation:Shape" xmi:id="_LKncgMVuEfG4QflBFXdp_g" type="Port_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_LKncgsVuEfG4QflBFXdp_g" type="Port_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LKncg8VuEfG4QflBFXdp_g" x="-159" y="-21"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_LKnchMVuEfG4QflBFXdp_g" type="Port_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LKnchcVuEfG4QflBFXdp_g" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:Port" href="SensorGatewaySoC_SysML.uml#_LKkZMMVuEfG4QflBFXdp_g"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LKncgcVuEfG4QflBFXdp_g" x="245" y="-10"/>
+          </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_lP0S8sTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-YMYcUZEfG4wZ464F_esg" x="54" y="158" width="320" height="160"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-YMYcUZEfG4wZ464F_esg" x="894" y="538" width="320" height="160"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_WYgO4MU6EfGfz5tzhjvfAQ" type="Property_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_WYgO4sU6EfGfz5tzhjvfAQ" type="Property_NameLabel"/>
@@ -2825,7 +2835,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WYg19MU6EfGfz5tzhjvfAQ"/>
           </children>
           <element xmi:type="uml:Property" href="SensorGatewaySoC_SysML.uml#_fH4rYMTuEfGtoOjGqlPCkg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WYgO4cU6EfGfz5tzhjvfAQ" x="114" y="638" width="280" height="120"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WYgO4cU6EfGfz5tzhjvfAQ" x="2200" y="1040" width="280" height="120"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_6WCCccUUEfG4wZ464F_esg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WCCcsUUEfG4wZ464F_esg"/>
@@ -2854,13 +2864,13 @@
       <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WBbYcUUEfG4wZ464F_esg" x="20" y="20" width="2161" height="921"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_o_4asMUvEfGfz5tzhjvfAQ" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_o_4ascUvEfGfz5tzhjvfAQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_o_4as8UvEfGfz5tzhjvfAQ" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_2nR_gMVmEfG4QflBFXdp_g" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2nR_gcVmEfG4QflBFXdp_g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2nR_g8VmEfG4QflBFXdp_g" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o_4assUvEfGfz5tzhjvfAQ" x="220" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2nR_gsVmEfG4QflBFXdp_g" x="220" y="20"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_6WANQcUUEfG4wZ464F_esg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_6WANQsUUEfG4wZ464F_esg"/>
@@ -2868,16 +2878,6 @@
       <owner xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
     </styles>
     <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
-    <edges xmi:type="notation:Connector" xmi:id="_o_5BwMUvEfGfz5tzhjvfAQ" type="StereotypeCommentLink" source="_6WBbYMUUEfG4wZ464F_esg" target="_o_4asMUvEfGfz5tzhjvfAQ">
-      <styles xmi:type="notation:FontStyle" xmi:id="_o_5BwcUvEfGfz5tzhjvfAQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_o_5o0MUvEfGfz5tzhjvfAQ" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o_5BwsUvEfGfz5tzhjvfAQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o_5Bw8UvEfGfz5tzhjvfAQ"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o_5BxMUvEfGfz5tzhjvfAQ"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_C8xrcMU5EfGfz5tzhjvfAQ" type="Connector_Edge" source="_SahakMUzEfGfz5tzhjvfAQ" target="_gOqx0MUxEfGfz5tzhjvfAQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_C8xrc8U5EfGfz5tzhjvfAQ" type="Connector_StereotypeLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_C8xrdMU5EfGfz5tzhjvfAQ" y="60"/>
@@ -2915,21 +2915,114 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_qVCEMMU5EfGfz5tzhjvfAQ" type="Connector_Edge" source="_rMX1gMUxEfGfz5tzhjvfAQ" target="_u6qsMMUxEfGfz5tzhjvfAQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_qVCrQMU5EfGfz5tzhjvfAQ" type="Connector_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrQcU5EfGfz5tzhjvfAQ" y="60"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UjyLUMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrQcU5EfGfz5tzhjvfAQ" x="-1" y="58"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_qVCrQsU5EfGfz5tzhjvfAQ" type="Connector_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrQ8U5EfGfz5tzhjvfAQ" y="-20"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Uj9xgMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrQ8U5EfGfz5tzhjvfAQ" x="-1" y="-18"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_qVCrRMU5EfGfz5tzhjvfAQ" type="Connector_SourceMultiplicityLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrRcU5EfGfz5tzhjvfAQ" y="20"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UkGUYMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrRcU5EfGfz5tzhjvfAQ" x="-45" y="18"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_qVCrRsU5EfGfz5tzhjvfAQ" type="Connector_TargetMultiplicityLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrR8U5EfGfz5tzhjvfAQ" y="20"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UkOQMMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVCrR8U5EfGfz5tzhjvfAQ" x="46" y="18"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_qVCEMcU5EfGfz5tzhjvfAQ"/>
       <element xmi:type="uml:Connector" href="SensorGatewaySoC_SysML.uml#_qU128MU5EfGfz5tzhjvfAQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qVCEMsU5EfGfz5tzhjvfAQ" points="[849, 306, -643984, -643984]$[1069, 330, -643984, -643984]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qVYCccU5EfGfz5tzhjvfAQ" id="(0.15,0.45)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qVYCccU5EfGfz5tzhjvfAQ" id="(0.44999999999999996,0.85)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2nSmkMVmEfG4QflBFXdp_g" type="StereotypeCommentLink" source="_6WBbYMUUEfG4wZ464F_esg" target="_2nR_gMVmEfG4QflBFXdp_g">
+      <styles xmi:type="notation:FontStyle" xmi:id="_2nSmkcVmEfG4QflBFXdp_g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_2nSmlcVmEfG4QflBFXdp_g" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2nSmksVmEfG4QflBFXdp_g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2nSmk8VmEfG4QflBFXdp_g"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2nSmlMVmEfG4QflBFXdp_g"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ThWTYMVtEfG4QflBFXdp_g" type="Connector_Edge" source="_w830gMUxEfGfz5tzhjvfAQ" target="_PEdoQMU0EfGfz5tzhjvfAQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ThW6cMVtEfG4QflBFXdp_g" type="Connector_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ThW6ccVtEfG4QflBFXdp_g" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ThW6csVtEfG4QflBFXdp_g" type="Connector_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ThW6c8VtEfG4QflBFXdp_g" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ThW6dMVtEfG4QflBFXdp_g" type="Connector_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ThW6dcVtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ThW6dsVtEfG4QflBFXdp_g" type="Connector_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ThW6d8VtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ThWTYcVtEfG4QflBFXdp_g"/>
+      <element xmi:type="uml:Connector" href="SensorGatewaySoC_SysML.uml#_Tg7coMVtEfG4QflBFXdp_g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ThWTYsVtEfG4QflBFXdp_g" points="[1529, 254, -643984, -643984]$[1568, 210, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TiJkoMVtEfG4QflBFXdp_g" id="(0.85,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TiJkocVtEfG4QflBFXdp_g" id="(0.5,0.85)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_b8UUkMVtEfG4QflBFXdp_g" type="Connector_Edge" source="_TEy_QMU2EfGfz5tzhjvfAQ" target="_yH8ggMUxEfGfz5tzhjvfAQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_b8U7oMVtEfG4QflBFXdp_g" type="Connector_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b8U7ocVtEfG4QflBFXdp_g" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_b8U7osVtEfG4QflBFXdp_g" type="Connector_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b8U7o8VtEfG4QflBFXdp_g" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_b8U7pMVtEfG4QflBFXdp_g" type="Connector_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b8U7pcVtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_b8U7psVtEfG4QflBFXdp_g" type="Connector_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b8U7p8VtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_b8UUkcVtEfG4QflBFXdp_g"/>
+      <element xmi:type="uml:Connector" href="SensorGatewaySoC_SysML.uml#_b76E4MVtEfG4QflBFXdp_g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b8UUksVtEfG4QflBFXdp_g" points="[1329, 176, -643984, -643984]$[1209, 250, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b8900MVtEfG4QflBFXdp_g" id="(0.05,0.3)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b8900cVtEfG4QflBFXdp_g" id="(0.05,0.1)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5-nqkMVtEfG4QflBFXdp_g" type="Connector_Edge" source="_auOZUMU3EfGfz5tzhjvfAQ" target="_SnRnsMU0EfGfz5tzhjvfAQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5-nqk8VtEfG4QflBFXdp_g" type="Connector_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5-nqlMVtEfG4QflBFXdp_g" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5-nqlcVtEfG4QflBFXdp_g" type="Connector_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5-nqlsVtEfG4QflBFXdp_g" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5-nql8VtEfG4QflBFXdp_g" type="Connector_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5-nqmMVtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5-nqmcVtEfG4QflBFXdp_g" type="Connector_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5-nqmsVtEfG4QflBFXdp_g" y="20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5-nqkcVtEfG4QflBFXdp_g"/>
+      <element xmi:type="uml:Connector" href="SensorGatewaySoC_SysML.uml#_5-ZBEMVtEfG4QflBFXdp_g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5-nqksVtEfG4QflBFXdp_g" points="[1050, 72, -643984, -643984]$[1300, 106, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5_J2EMVtEfG4QflBFXdp_g" id="(0.7,0.1)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QSvM4MVuEfG4QflBFXdp_g" type="Connector_Edge" source="_zaefYMUxEfGfz5tzhjvfAQ" target="_LKncgMVuEfG4QflBFXdp_g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSvz8cVuEfG4QflBFXdp_g" type="Connector_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SOqHAMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSvz8sVuEfG4QflBFXdp_g" x="1" y="57"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSvz88VuEfG4QflBFXdp_g" type="Connector_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SOz4AMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSvz9MVuEfG4QflBFXdp_g" y="-19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSvz9cVuEfG4QflBFXdp_g" type="Connector_SourceMultiplicityLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SPAFQMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSwbAMVuEfG4QflBFXdp_g" x="-131" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSwbAcVuEfG4QflBFXdp_g" type="Connector_TargetMultiplicityLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SPJ2QMVuEfG4QflBFXdp_g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSwbAsVuEfG4QflBFXdp_g" x="129" y="18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QSvM4cVuEfG4QflBFXdp_g"/>
+      <element xmi:type="uml:Connector" href="SensorGatewaySoC_SysML.uml#_QSWLUMVuEfG4QflBFXdp_g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QSvz8MVuEfG4QflBFXdp_g" points="[1510, 328, -643984, -643984]$[1166, 594, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SOdSsMVuEfG4QflBFXdp_g" id="(0.5,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QTh3EMVuEfG4QflBFXdp_g" id="(0.0,0.2)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
