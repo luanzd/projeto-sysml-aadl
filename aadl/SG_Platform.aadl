@@ -1,6 +1,5 @@
 -- =============================================================================
 --  SG_Platform: plataforma de execução e dispositivos do SensorGatewaySoC
---  Contrato: contrato-projeto3.md
 --
 --  O hardware em que o software vai rodar (CPU, memória, barramento) e os
 --  dispositivos na fronteira do sistema (sensores e interface de saída).

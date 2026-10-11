@@ -1,6 +1,5 @@
 -- =============================================================================
 --  SG_Software: software de aplicação do SensorGatewaySoC
---  Contrato: contrato-projeto3.md
 --
 --  As cinco threads e os três processos que as agrupam.
 --

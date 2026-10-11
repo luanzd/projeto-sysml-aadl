@@ -1,6 +1,5 @@
 -- =============================================================================
 --  SG_Types: tipos de dados do SensorGatewaySoC (Projeto 3)
---  Contrato: contrato-projeto3.md
 --
 --  Pacote-base: não depende de nenhum outro pacote do projeto.
 --  É importado pela plataforma e pelo software.
@@ -20,7 +19,6 @@ public
       Data_Size => 8 Bytes;
   end Msg;
 
-
   data implementation Msg.impl
     subcomponents
       source_id : data Base_Types::Unsigned_8;   -- 0 temp, 1 luz, 2 movimento
@@ -37,14 +35,17 @@ public
       Data_Size => 2 Bytes;
   end RxReport;
 
- data implementation RxReport.impl
-  subcomponents
-    source_id : data Base_Types::Unsigned_8;
-    valid     : data Base_Types::Boolean { Data_Size => 1 Bytes; };
-end RxReport.impl;
+  -- O Boolean de Base_Types não declara tamanho, então o OSATE o conta
+  -- como 0 byte e acusa que a soma dos campos (1) é menor que os 2 Bytes
+  -- declarados. O tamanho é dado ao próprio campo: 1 + 1 = 2.
+  data implementation RxReport.impl
+    subcomponents
+      source_id : data Base_Types::Unsigned_8;
+      valid     : data Base_Types::Boolean { Data_Size => 1 Bytes; };
+  end RxReport.impl;
 
   -- Configuração lida pelo classificador: limite de temperatura acima do
-  -- qual a leitura vira crítica (ConfigurationMemory, contrato 2.3).
+  -- qual a leitura vira crítica (ConfigurationMemory).
   data Config
     properties
       Data_Size => 4 Bytes;

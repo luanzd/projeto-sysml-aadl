@@ -1,6 +1,5 @@
 -- =============================================================================
 --  SG_System: integração do SensorGatewaySoC (Projeto 3)
---  Contrato: contrato-projeto3.md
 --
 --  O único pacote que conhece ao mesmo tempo a plataforma e o software.
 --  Aqui acontecem as três decisões de integração:
