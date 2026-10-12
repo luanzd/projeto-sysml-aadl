@@ -88,7 +88,7 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5OQEIcMpEfGJKsbJZCqV3Q" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEIsMpEfGJKsbJZCqV3Q" name="uc04 - tratar mensagem inválida" type="_iyeaoMMpEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEI8MpEfGJKsbJZCqV3Q" name="sistema externo de supervisão" type="_SuGigMJBEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEI8MpEfGJKsbJZCqV3Q" name="operador" type="_VzxS8MJBEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_JANkAMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_6fj68MF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_M9KhwMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
@@ -110,31 +110,31 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_haTGUMEyEfGNKtEunPCNwA" name="Estrutura">
       <packagedElement xmi:type="uml:Class" xmi:id="_GZJgwMTuEfGtoOjGqlPCkg" name="SensorGatewaySoC">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_fH4rYMTuEfGtoOjGqlPCkg" name="messagebuffer" type="_Kk8LwMTuEfGtoOjGqlPCkg" aggregation="composite" association="_fH1oEMTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fH55gMTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fH55gMTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fH6gkMTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_f5VWcsTuEfGtoOjGqlPCkg" name="statisticsmanager" type="_NzOssMTuEfGtoOjGqlPCkg" aggregation="composite" association="_f5UvYMTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f5V9gMTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f5V9gMTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f5V9gcTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_gzGQAMTuEfGtoOjGqlPCkg" name="priorityarbiter" type="_L2LKIMTuEfGtoOjGqlPCkg" aggregation="composite" association="_gzFB4MTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gzGQAcTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gzGQAcTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gzGQAsTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_ihE0wsTuEfGtoOjGqlPCkg" name="outputinterface" type="_MxT8sMTuEfGtoOjGqlPCkg" aggregation="composite" association="_ihDmoMTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ihFb0MTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ihFb0MTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ihFb0cTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_jwLFIMTuEfGtoOjGqlPCkg" name="configurationmemory" type="_PSdDwMTuEfGtoOjGqlPCkg" aggregation="composite" association="_jwJP8MTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwLsMMTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwLsMMTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwLsMcTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_kfbX0sTuEfGtoOjGqlPCkg" name="messageformatter" type="_JYe_sMTuEfGtoOjGqlPCkg" aggregation="composite" association="_kfawwMTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kfbX08TuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kfbX08TuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kfb-4MTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_lP0S8sTuEfGtoOjGqlPCkg" name="sensorinterface" type="_IqHd0MTuEfGtoOjGqlPCkg" aggregation="composite" association="_lPzr4MTuEfGtoOjGqlPCkg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lP06AMTuEfGtoOjGqlPCkg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lP06AMTuEfGtoOjGqlPCkg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lP06AcTuEfGtoOjGqlPCkg" value="1"/>
         </ownedAttribute>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_C8Yp4MU5EfGfz5tzhjvfAQ" name="Connector8">
