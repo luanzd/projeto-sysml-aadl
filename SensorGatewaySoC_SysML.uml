@@ -103,6 +103,7 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_E7b1EMV8EfG4QflBFXdp_g" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_o63VIMF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_FqvyIMV8EfG4QflBFXdp_g" name="" client="_iyeaoMMpEfGJKsbJZCqV3Q" supplier="_p_JcoMF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_D9rB8MWgEfGsXc2OJAzKWw" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_rZvLUMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_W4PJgMXXEfGsXc2OJAzKWw" name="" client="_EgcOsMKpEfGJKsbJZCqV3Q" supplier="_llxBkMF8EfGNKtEunPCNwA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_haTGUMEyEfGNKtEunPCNwA" name="Estrutura">
       <packagedElement xmi:type="uml:Class" xmi:id="_GZJgwMTuEfGtoOjGqlPCkg" name="SensorGatewaySoC">
@@ -483,4 +484,5 @@
   <Blocks:NestedConnectorEnd xmi:id="_UzJGQMXMEfGsXc2OJAzKWw" base_Element="_UzIfMcXMEfGsXc2OJAzKWw" propertyPath="_ihE0wsTuEfGtoOjGqlPCkg" base_ConnectorEnd="_UzIfMcXMEfGsXc2OJAzKWw"/>
   <Blocks:NestedConnectorEnd xmi:id="_V8iXQsXMEfGsXc2OJAzKWw" base_Element="_V8iXQMXMEfGsXc2OJAzKWw" propertyPath="_gzGQAMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_V8iXQMXMEfGsXc2OJAzKWw"/>
   <Blocks:NestedConnectorEnd xmi:id="_V8i-UMXMEfGsXc2OJAzKWw" base_Element="_V8iXQcXMEfGsXc2OJAzKWw" propertyPath="_ihE0wsTuEfGtoOjGqlPCkg" base_ConnectorEnd="_V8iXQcXMEfGsXc2OJAzKWw"/>
+  <Requirements:Refine xmi:id="_W4XFUMXXEfGsXc2OJAzKWw" base_DirectedRelationship="_W4PJgMXXEfGsXc2OJAzKWw" base_Abstraction="_W4PJgMXXEfGsXc2OJAzKWw"/>
 </xmi:XMI>

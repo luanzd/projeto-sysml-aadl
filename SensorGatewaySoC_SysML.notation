@@ -319,101 +319,101 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OiWqEsJdEfGJKsbJZCqV3Q" x="260" y="520"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qk0OMMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qk0OMcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qk0OM8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m713Y8XUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m713ZMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m713ZsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_SoYp0ME1EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qk0OMsWdEfGEaYWyXQKcFw" x="220" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m713ZcXUEfGsXc2OJAzKWw" x="220" y="20"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qlC3ucWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qlC3usWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlDewMWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m7_BXcXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m7_BXsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m7_BYMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_gBTv8MF7EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qlC3u8WdEfGEaYWyXQKcFw" x="220" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m7_BX8XUEfGsXc2OJAzKWw" x="220" y="160"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qlSvUMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qlSvUcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlSvU8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8FvE8XUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8FvFMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8FvFsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_llxBkMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qlSvUsWdEfGEaYWyXQKcFw" x="540" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8FvFcXUEfGsXc2OJAzKWw" x="540" y="20"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qlhY0MWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qlhY0cWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlhY08WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8McsMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8McscXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8Mcs8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_nvIh0MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qlhY0sWdEfGEaYWyXQKcFw" x="540" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8McssXUEfGsXc2OJAzKWw" x="540" y="160"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qlwpYMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qlwpYcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlwpY8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8TKY8XUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8TKZMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8TKZsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_o63VIMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qlwpYsWdEfGEaYWyXQKcFw" x="540" y="280"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8TKZcXUEfGsXc2OJAzKWw" x="540" y="280"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qmBvLcWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qmBvLsWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmBvMMWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8Z4EMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8Z4EcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8Z4E8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_p_JcoMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmBvL8WdEfGEaYWyXQKcFw" x="820" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8Z4EsXUEfGsXc2OJAzKWw" x="820" y="20"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qmSN0MWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qmSN0cWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmSN08WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8f-sMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8f-scXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8f-s8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_rZvLUMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmSN0sWdEfGEaYWyXQKcFw" x="820" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8f-ssXUEfGsXc2OJAzKWw" x="820" y="160"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qmlIwMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qmlIwcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmlIw8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8mFVcXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8mFVsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8mFWMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_vzVo0MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmlIwsWdEfGEaYWyXQKcFw" x="220" y="300"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8mFV8XUEfGsXc2OJAzKWw" x="220" y="300"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qmzyQMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qmzyQcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmzyQ8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8sMBcXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8sMBsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8sMCMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_6fj68MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmzyQsWdEfGEaYWyXQKcFw" x="820" y="280"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8sMB8XUEfGsXc2OJAzKWw" x="820" y="280"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qnIiYMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qnIiYcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnIiY8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m8zgsMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m8zgscXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8zgs8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_7ZJOUMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnIiYsWdEfGEaYWyXQKcFw" x="1060" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8zgssXUEfGsXc2OJAzKWw" x="1060" y="20"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qnd5kMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qnd5kcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnd5k8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m85nWcXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m85nWsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m85nXMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_wznVQMHYEfGwWInniLvjbQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnd5ksWdEfGEaYWyXQKcFw" x="1060" y="180"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85nW8XUEfGsXc2OJAzKWw" x="1060" y="180"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_qnxbkMWdEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_qnxbkcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnxbk8WdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_m9A8EMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m9A8EcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m9A8E8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_ONfZUMHZEfGwWInniLvjbQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnxbksWdEfGEaYWyXQKcFw" x="1060" y="320"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m9A8EsXUEfGsXc2OJAzKWw" x="1060" y="320"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Q5Q1kcE1EfGNKtEunPCNwA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Q5Q1ksE1EfGNKtEunPCNwA"/>
@@ -421,125 +421,125 @@
       <owner xmi:type="uml:Package" href="SensorGatewaySoC_SysML.uml#_cJsvYMEyEfGNKtEunPCNwA"/>
     </styles>
     <element xmi:type="uml:Package" href="SensorGatewaySoC_SysML.uml#_cJsvYMEyEfGNKtEunPCNwA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_qk0ONMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_Soc7QME1EfGNKtEunPCNwA" target="_qk0OMMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qk0ONcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qk0OOcWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m713Z8XUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_Soc7QME1EfGNKtEunPCNwA" target="_m713Y8XUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m713aMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m713bMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_SoYp0ME1EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qk0ONsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qk0ON8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qk0OOMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m713acXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m713asXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m713a8XUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qlDewcWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_gBcS0MF7EfGNKtEunPCNwA" target="_qlC3ucWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qlDewsWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlDexsWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m7_BYcXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_gBcS0MF7EfGNKtEunPCNwA" target="_m7_BXcXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m7_BYsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m7_BZsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_gBTv8MF7EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlDew8WdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlDexMWdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlDexcWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m7_BY8XUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m7_BZMXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m7_BZcXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qlSvVMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_ll1TAMF8EfGNKtEunPCNwA" target="_qlSvUMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qlSvVcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlSvWcWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8FvF8XUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_ll1TAMF8EfGNKtEunPCNwA" target="_m8FvE8XUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8FvGMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8FvHMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_llxBkMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlSvVsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlSvV8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlSvWMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8FvGcXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8FvGsXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8FvG8XUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qlhY1MWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_nvQdoMF8EfGNKtEunPCNwA" target="_qlhY0MWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qlhY1cWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlhY2cWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8MctMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_nvQdoMF8EfGNKtEunPCNwA" target="_m8McsMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8MctcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8McucXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_nvIh0MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlhY1sWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlhY18WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlhY2MWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8MctsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8Mct8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8McuMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qlwpZMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_o6_4AMF8EfGNKtEunPCNwA" target="_qlwpYMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qlwpZcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qlwpacWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8TKZ8XUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_o6_4AMF8EfGNKtEunPCNwA" target="_m8TKY8XUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8TKaMXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8TKbMXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_o63VIMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlwpZsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlwpZ8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlwpaMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8TKacXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8TKasXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8TKa8XUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qmBvMcWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_p_SmkMF8EfGNKtEunPCNwA" target="_qmBvLcWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qmBvMsWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmCWMsWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8Z4FMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_p_SmkMF8EfGNKtEunPCNwA" target="_m8Z4EMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8Z4FcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8Z4GcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_p_JcoMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmBvM8WdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmCWMMWdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmCWMcWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8Z4FsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8Z4F8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8Z4GMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qmSN1MWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_rZyOoMF8EfGNKtEunPCNwA" target="_qmSN0MWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qmSN1cWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmSN2cWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8f-tMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_rZyOoMF8EfGNKtEunPCNwA" target="_m8f-sMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8f-tcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8f-ucXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_rZvLUMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmSN1sWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmSN18WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmSN2MWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8f-tsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8f-t8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8f-uMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qmlIxMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_vzdkoMF8EfGNKtEunPCNwA" target="_qmlIwMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qmlIxcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qmlIycWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8mFWcXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_vzdkoMF8EfGNKtEunPCNwA" target="_m8mFVcXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8mFWsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8mFXsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_vzVo0MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmlIxsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmlIx8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmlIyMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8mFW8XUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8mFXMXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8mFXcXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qm0ZUMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_6foMYMF8EfGNKtEunPCNwA" target="_qmzyQMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qm0ZUcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qm0ZVcWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8sMCcXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_6foMYMF8EfGNKtEunPCNwA" target="_m8sMBcXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8sMCsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8sMDsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_6fj68MF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qm0ZUsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qm0ZU8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qm0ZVMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8sMC8XUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8sMDMXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8sMDcXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qnIiZMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_7ZNfwMF8EfGNKtEunPCNwA" target="_qnIiYMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qnIiZcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnJJcMWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m8zgtMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_7ZNfwMF8EfGNKtEunPCNwA" target="_m8zgsMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m8zgtcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m8zgucXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_7ZJOUMF8EfGNKtEunPCNwA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qnIiZsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnIiZ8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnIiaMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8zgtsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8zgt8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8zguMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qnd5lMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_w0VuAMHYEfGwWInniLvjbQ" target="_qnd5kMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qnd5lcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnd5mcWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m85nXcXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_w0VuAMHYEfGwWInniLvjbQ" target="_m85nWcXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m85nXsXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m85nYsXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_wznVQMHYEfGwWInniLvjbQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qnd5lsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnd5l8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnd5mMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m85nX8XUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m85nYMXUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m85nYcXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_qnxblMWdEfGEaYWyXQKcFw" type="StereotypeCommentLink" source="_ONs0sMHZEfGwWInniLvjbQ" target="_qnxbkMWdEfGEaYWyXQKcFw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_qnxblcWdEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qnxbmcWdEfGEaYWyXQKcFw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_m9A8FMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_ONs0sMHZEfGwWInniLvjbQ" target="_m9A8EMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m9A8FcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m9A8GcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_ONfZUMHZEfGwWInniLvjbQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qnxblsWdEfGEaYWyXQKcFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnxbl8WdEfGEaYWyXQKcFw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qnxbmMWdEfGEaYWyXQKcFw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m9A8FsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m9A8F8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m9A8GMXUEfGsXc2OJAzKWw"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_JwtwwMJBEfGJKsbJZCqV3Q" type="UseCase" name="UC_VISAO_GERAL" measurementUnit="Pixel">
@@ -897,7 +897,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y481ccKoEfGJKsbJZCqV3Q"/>
       </children>
       <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_nvIh0MF8EfGNKtEunPCNwA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y48OUcKoEfGJKsbJZCqV3Q" x="1640" y="260" width="300"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y48OUcKoEfGJKsbJZCqV3Q" x="1540" y="540" width="300"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_Y5lHgMKoEfGJKsbJZCqV3Q" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_Y5lukMKoEfGJKsbJZCqV3Q" type="Class_NameLabel"/>
@@ -1053,7 +1053,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y99RQcKoEfGJKsbJZCqV3Q"/>
       </children>
       <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_7ZJOUMF8EfGNKtEunPCNwA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y98qIcKoEfGJKsbJZCqV3Q" x="1560" y="380" width="300" height="120"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y98qIcKoEfGJKsbJZCqV3Q" x="1520" y="720" width="300" height="120"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_Y-rC4MKoEfGJKsbJZCqV3Q" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_Y-rC4sKoEfGJKsbJZCqV3Q" type="Class_NameLabel"/>
@@ -1105,7 +1105,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y_apyMKoEfGJKsbJZCqV3Q"/>
       </children>
       <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_ONfZUMHZEfGwWInniLvjbQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y_aCscKoEfGJKsbJZCqV3Q" x="1560" y="120" width="300"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y_aCscKoEfGJKsbJZCqV3Q" x="1560" y="360" width="300"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_GzA40MKqEfGJKsbJZCqV3Q" type="NamedElement_DefaultShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_GzA40sKqEfGJKsbJZCqV3Q" type="NamedElement_NameLabel"/>
@@ -1120,12 +1120,12 @@
     <children xmi:type="notation:Shape" xmi:id="_GzgoEMKqEfGJKsbJZCqV3Q" type="NamedElement_DefaultShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_GzhPIMKqEfGJKsbJZCqV3Q" type="NamedElement_NameLabel"/>
       <element xmi:type="uml:UseCase" href="SensorGatewaySoC_SysML.uml#_EgcOsMKpEfGJKsbJZCqV3Q"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GzgoEcKqEfGJKsbJZCqV3Q" x="1260" y="260"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GzgoEcKqEfGJKsbJZCqV3Q" x="1220" y="520"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_-KFsAMMpEfGJKsbJZCqV3Q" type="NamedElement_DefaultShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_-KGTEMMpEfGJKsbJZCqV3Q" type="NamedElement_NameLabel"/>
       <element xmi:type="uml:UseCase" href="SensorGatewaySoC_SysML.uml#_iyeaoMMpEfGJKsbJZCqV3Q"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-KFsAcMpEfGJKsbJZCqV3Q" x="720" y="600"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-KFsAcMpEfGJKsbJZCqV3Q" x="720" y="660"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_fGwhYMMqEfGI7b74Kq5rsg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_fGwhYcMqEfGI7b74Kq5rsg"/>
@@ -1375,6 +1375,14 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRc1wsXTEfGsXc2OJAzKWw" x="920" y="500"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_W4zKM8XXEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_W4zKNMXXEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_W4zKNsXXEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_W4PJgMXXEfGsXc2OJAzKWw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W4zKNcXXEfGsXc2OJAzKWw" x="1420" y="420"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_RJhrkcKoEfGJKsbJZCqV3Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_RJhrksKoEfGJKsbJZCqV3Q"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_RJhrk8KoEfGJKsbJZCqV3Q" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
@@ -1495,16 +1503,18 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_7_OIAMV7EfG4QflBFXdp_g" type="Abstraction_Edge" source="_GzgoEMKqEfGJKsbJZCqV3Q" target="_Y_aCsMKoEfGJKsbJZCqV3Q">
       <children xmi:type="notation:DecorationNode" xmi:id="_7_OIA8V7EfG4QflBFXdp_g" type="Abstraction_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_OIBMV7EfG4QflBFXdp_g" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UkmS8MXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_OIBMV7EfG4QflBFXdp_g" y="39"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_7_OIBcV7EfG4QflBFXdp_g" type="Abstraction_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_OIBsV7EfG4QflBFXdp_g" y="60"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UkygMMXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7_OIBsV7EfG4QflBFXdp_g" y="59"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_7_OIAcV7EfG4QflBFXdp_g"/>
       <element xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_7_KdoMV7EfG4QflBFXdp_g"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7_OIAsV7EfG4QflBFXdp_g" points="[1474, 280, -643984, -643984]$[1560, 180, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_6EgMV7EfG4QflBFXdp_g" id="(1.0,0.4)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_6EgcV7EfG4QflBFXdp_g" id="(0.0,0.6)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_6EgcV7EfG4QflBFXdp_g" id="(0.0,0.6299212598425197)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_82yCIMV7EfG4QflBFXdp_g" type="Abstraction_Edge" source="_GzgoEMKqEfGJKsbJZCqV3Q" target="_Y48OUMKoEfGJKsbJZCqV3Q">
       <children xmi:type="notation:DecorationNode" xmi:id="_82yCI8V7EfG4QflBFXdp_g" type="Abstraction_NameLabel">
@@ -1551,10 +1561,12 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_E7jJ0MV8EfG4QflBFXdp_g" type="Abstraction_Edge" source="_-KFsAMMpEfGJKsbJZCqV3Q" target="_Y5lHgMKoEfGJKsbJZCqV3Q">
       <children xmi:type="notation:DecorationNode" xmi:id="_E7jJ08V8EfG4QflBFXdp_g" type="Abstraction_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E7jJ1MV8EfG4QflBFXdp_g" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UPDgwMXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E7jJ1MV8EfG4QflBFXdp_g" x="-1" y="38"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_E7jJ1cV8EfG4QflBFXdp_g" type="Abstraction_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_E7jJ1sV8EfG4QflBFXdp_g" y="60"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UPSKQMXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E7jJ1sV8EfG4QflBFXdp_g" x="-1" y="58"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_E7jJ0cV8EfG4QflBFXdp_g"/>
       <element xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_E7b1EMV8EfG4QflBFXdp_g"/>
@@ -1564,10 +1576,12 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_FqzcgMV8EfG4QflBFXdp_g" type="Abstraction_Edge" source="_-KFsAMMpEfGJKsbJZCqV3Q" target="_Y6V8gMKoEfGJKsbJZCqV3Q">
       <children xmi:type="notation:DecorationNode" xmi:id="_Fqzcg8V8EfG4QflBFXdp_g" type="Abstraction_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FqzchMV8EfG4QflBFXdp_g" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UPeXgMXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FqzchMV8EfG4QflBFXdp_g" y="39"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_FqzchcV8EfG4QflBFXdp_g" type="Abstraction_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FqzchsV8EfG4QflBFXdp_g" y="60"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_UPry4MXXEfGsXc2OJAzKWw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FqzchsV8EfG4QflBFXdp_g" y="59"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_FqzcgcV8EfG4QflBFXdp_g"/>
       <element xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_FqvyIMV8EfG4QflBFXdp_g"/>
@@ -1857,6 +1871,29 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xRc1xsXTEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRc1x8XTEfGsXc2OJAzKWw"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRc1yMXTEfGsXc2OJAzKWw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_W4ZhkMXXEfGsXc2OJAzKWw" type="Abstraction_Edge" source="_GzgoEMKqEfGJKsbJZCqV3Q" target="_Y4BBQMKoEfGJKsbJZCqV3Q">
+      <children xmi:type="notation:DecorationNode" xmi:id="_W4aIoMXXEfGsXc2OJAzKWw" type="Abstraction_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_W4aIocXXEfGsXc2OJAzKWw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_W4aIosXXEfGsXc2OJAzKWw" type="Abstraction_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_W4aIo8XXEfGsXc2OJAzKWw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_W4ZhkcXXEfGsXc2OJAzKWw"/>
+      <element xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_W4PJgMXXEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W4ZhksXXEfGsXc2OJAzKWw" points="[1220, 540, -643984, -643984]$[560, 400, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W5GsMMXXEfGsXc2OJAzKWw" id="(0.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W5GsMcXXEfGsXc2OJAzKWw" id="(1.0,0.6666666666666666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_W4zKN8XXEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_W4ZhkMXXEfGsXc2OJAzKWw" target="_W4zKM8XXEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_W4zKOMXXEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_W4zKPMXXEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_W4PJgMXXEfGsXc2OJAzKWw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W4zKOcXXEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W4zKOsXXEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W4zKO8XXEfGsXc2OJAzKWw"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_efyHUMMyEfGI7b74Kq5rsg" type="PapyrusUMLClassDiagram" name="BDD_SensorGateway" measurementUnit="Pixel">
@@ -2220,69 +2257,69 @@
       <element xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_PSdDwMTuEfGtoOjGqlPCkg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PSlmocTuEfGtoOjGqlPCkg" x="980" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_RqaXksXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_RqaXk8XIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqaXlcXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lhRIMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lhRIcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lhRI8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqaXlMXIEfGsXc2OJAzKWw" x="1040" y="140"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lhRIsXUEfGsXc2OJAzKWw" x="1040" y="140"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_RqfQEMXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_RqfQEcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqfQE8XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lpM8MXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lpM8cXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lpM88XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_IqHd0MTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqfQEsXIEfGsXc2OJAzKWw" x="1520" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lpM8sXUEfGsXc2OJAzKWw" x="1520" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_RqiTYMXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_RqiTYcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rqi6cMXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lrCIMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lrCIcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lrCI8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_JYe_sMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqiTYsXIEfGsXc2OJAzKWw" x="1360" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lrCIsXUEfGsXc2OJAzKWw" x="1360" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_Rql9wMXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Rql9wcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rql9w8XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lteYMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lteYcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lteY8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_Kk8LwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rql9wsXIEfGsXc2OJAzKWw" x="600" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lteYsXUEfGsXc2OJAzKWw" x="600" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_Rqny8MXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Rqny8cXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rqny88XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lvTkMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lvTkcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lvTk8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_L2LKIMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rqny8sXIEfGsXc2OJAzKWw" x="900" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lvTksXUEfGsXc2OJAzKWw" x="900" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_RqpoIMXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_RqpoIcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqpoI8XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7lyW4MXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7lyW4cXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lyW48XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_MxT8sMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqpoIsXIEfGsXc2OJAzKWw" x="1040" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7lyW4sXUEfGsXc2OJAzKWw" x="1040" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_Rqq2RcXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Rqq2RsXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqrdUMXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7l1aMMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7l1aMcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7l1aM8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_NzOssMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rqq2R8XIEfGsXc2OJAzKWw" x="740" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l1aMsXUEfGsXc2OJAzKWw" x="740" y="420"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_RqtSgMXIEfGsXc2OJAzKWw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_RqtSgcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqtSg8XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_7l3PZMXUEfGsXc2OJAzKWw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7l3PZcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7l3PZ8XUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_PSdDwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RqtSgsXIEfGsXc2OJAzKWw" x="1180" y="420"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l3PZsXUEfGsXc2OJAzKWw" x="1180" y="420"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_efyHUcMyEfGI7b74Kq5rsg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_efyHUsMyEfGI7b74Kq5rsg"/>
@@ -2465,85 +2502,85 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lQpZYMTuEfGtoOjGqlPCkg" id="(0.9931506849315068,0.9747899159663865)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lQpZYcTuEfGtoOjGqlPCkg" id="(0.4918032786885246,0.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RqaXlsXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_GZQOcMTuEfGtoOjGqlPCkg" target="_RqaXksXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_RqaXl8XIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqaXm8XIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7lhRJMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_GZQOcMTuEfGtoOjGqlPCkg" target="_7lhRIMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7lhRJcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lhRKcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_GZJgwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqaXmMXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqaXmcXIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqaXmsXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7lhRJsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lhRJ8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lhRKMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RqfQFMXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_IqeDIMTuEfGtoOjGqlPCkg" target="_RqfQEMXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_RqfQFcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqfQGcXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7lpM9MXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_IqeDIMTuEfGtoOjGqlPCkg" target="_7lpM8MXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7lpM9cXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lpM-cXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_IqHd0MTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqfQFsXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqfQF8XIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqfQGMXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7lpM9sXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lpM98XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lpM-MXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Rqi6ccXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_JYoJoMTuEfGtoOjGqlPCkg" target="_RqiTYMXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_Rqi6csXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rqi6dsXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7lrCJMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_JYoJoMTuEfGtoOjGqlPCkg" target="_7lrCIMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7lrCJcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lrCKcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_JYe_sMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rqi6c8XIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rqi6dMXIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rqi6dcXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7lrCJsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lrCJ8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lrCKMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Rql9xMXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_KlF8wMTuEfGtoOjGqlPCkg" target="_Rql9wMXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_Rql9xcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rql9ycXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7lteZMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_KlF8wMTuEfGtoOjGqlPCkg" target="_7lteYMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7lteZcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lteacXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_Kk8LwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rql9xsXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rql9x8XIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rql9yMXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7lteZsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lteZ8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lteaMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Rqny9MXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_L2Se4MTuEfGtoOjGqlPCkg" target="_Rqny8MXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_Rqny9cXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Rqny-cXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7lvTlMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_L2Se4MTuEfGtoOjGqlPCkg" target="_7lvTkMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7lvTlcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7lvTmcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_L2LKIMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rqny9sXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rqny98XIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rqny-MXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7lvTlsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lvTl8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7lvTmMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RqpoJMXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_MxdtsMTuEfGtoOjGqlPCkg" target="_RqpoIMXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_RqpoJcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqpoKcXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7ly98MXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_MxdtsMTuEfGtoOjGqlPCkg" target="_7lyW4MXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7ly98cXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7ly99cXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_MxT8sMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqpoJsXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqpoJ8XIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqpoKMXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ly98sXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ly988XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ly99MXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RqrdUcXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_NzWogMTuEfGtoOjGqlPCkg" target="_Rqq2RcXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_RqrdUsXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqrdVsXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7l1aNMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_NzWogMTuEfGtoOjGqlPCkg" target="_7l1aMMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7l1aNcXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7l1aOcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_NzOssMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqrdU8XIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqrdVMXIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqrdVcXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7l1aNsXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l1aN8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l1aOMXUEfGsXc2OJAzKWw"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_RqtShMXIEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_PSlmoMTuEfGtoOjGqlPCkg" target="_RqtSgMXIEfGsXc2OJAzKWw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_RqtShcXIEfGsXc2OJAzKWw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_RqtSicXIEfGsXc2OJAzKWw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_7l3PaMXUEfGsXc2OJAzKWw" type="StereotypeCommentLink" source="_PSlmoMTuEfGtoOjGqlPCkg" target="_7l3PZMXUEfGsXc2OJAzKWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7l3PacXUEfGsXc2OJAzKWw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7l3PbcXUEfGsXc2OJAzKWw" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SensorGatewaySoC_SysML.uml#_PSdDwMTuEfGtoOjGqlPCkg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqtShsXIEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqtSh8XIEfGsXc2OJAzKWw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqtSiMXIEfGsXc2OJAzKWw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7l3PasXUEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l3Pa8XUEfGsXc2OJAzKWw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l3PbMXUEfGsXc2OJAzKWw"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_6WANQMUUEfG4wZ464F_esg" type="CompositeStructure" name="IBD_SensorGateway" measurementUnit="Pixel">
