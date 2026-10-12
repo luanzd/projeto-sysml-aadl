@@ -341,6 +341,9 @@
           <transition xmi:type="uml:Transition" xmi:id="_Opv3YMXSEfGsXc2OJAzKWw" name="link_up" source="_ucDIMMXOEfGsXc2OJAzKWw" target="_mY5xIMXOEfGsXc2OJAzKWw"/>
           <transition xmi:type="uml:Transition" xmi:id="_l2ENAMXSEfGsXc2OJAzKWw" name="mensagem_transmitida" source="_runRkMXOEfGsXc2OJAzKWw" target="_mY5xIMXOEfGsXc2OJAzKWw"/>
           <transition xmi:type="uml:Transition" xmi:id="_05Uw0MXSEfGsXc2OJAzKWw" name="credito_disponivel" source="_xZphwMXOEfGsXc2OJAzKWw" target="_mY5xIMXOEfGsXc2OJAzKWw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_trnInvSMYuriLuan01" name="mensagem_inválida" source="_i52QUMXOEfGsXc2OJAzKWw" target="_ewKeIMXOEfGsXc2OJAzKWw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_trnVazSMYuriLuan01" name="filas_vazias" source="_runRkMXOEfGsXc2OJAzKWw" target="_ewKeIMXOEfGsXc2OJAzKWw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_trnCrdSMYuriLuan01" name="sem_crédito" source="_ucDIMMXOEfGsXc2OJAzKWw" target="_xZphwMXOEfGsXc2OJAzKWw"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_ckeCoMXOEfGsXc2OJAzKWw" name="Initial"/>
           <subvertex xmi:type="uml:State" xmi:id="_ewKeIMXOEfGsXc2OJAzKWw" name="Idle"/>
           <subvertex xmi:type="uml:State" xmi:id="_i52QUMXOEfGsXc2OJAzKWw" name="Receiving"/>
