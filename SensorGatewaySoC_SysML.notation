@@ -1151,14 +1151,6 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c0nNssWdEfGEaYWyXQKcFw" x="840" y="160"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_4UYgEMWeEfGEaYWyXQKcFw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_4UYgEcWeEfGEaYWyXQKcFw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4UYgE8WeEfGEaYWyXQKcFw" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Abstraction" href="SensorGatewaySoC_SysML.uml#_pEoN0MWdEfGEaYWyXQKcFw"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4UYgEsWeEfGEaYWyXQKcFw" x="840" y="160"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_xPFeQMXTEfGsXc2OJAzKWw" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_xPFeQcXTEfGsXc2OJAzKWw"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_xPFeQ8XTEfGsXc2OJAzKWw" name="BASE_ELEMENT">
@@ -1382,6 +1374,11 @@
       </styles>
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W4zKNcXXEfGsXc2OJAzKWw" x="1420" y="420"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_shpUrg3RQ10YuriLuan01" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lblUrg3RQ10YuriLuan01" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="SensorGatewaySoC_SysML.uml#_cmtUrg3RQ10YuriLuan01"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bndUrg3RQ10YuriLuan01" x="1520" y="880" width="300" height="110"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_RJhrkcKoEfGJKsbJZCqV3Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_RJhrksKoEfGJKsbJZCqV3Q"/>
@@ -1894,6 +1891,11 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W4zKOcXXEfGsXc2OJAzKWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W4zKOsXXEfGsXc2OJAzKWw"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W4zKO8XXEfGsXc2OJAzKWw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_edgUrg3RQ10YuriLuan01" type="Comment_AnnotatedElementEdge" source="_shpUrg3RQ10YuriLuan01" target="_Y98qIMKoEfGJKsbJZCqV3Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_fstUrg3RQ10YuriLuan01"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bptUrg3RQ10YuriLuan01" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_efyHUMMyEfGI7b74Kq5rsg" type="PapyrusUMLClassDiagram" name="BDD_SensorGateway" measurementUnit="Pixel">

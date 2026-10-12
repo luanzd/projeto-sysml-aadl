@@ -8,6 +8,9 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_cJsvYMEyEfGNKtEunPCNwA" name="Requisitos">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_cmtUrg3RQ10YuriLuan01" annotatedElement="_7ZJOUMF8EfGNKtEunPCNwA">
+        <body>Realização no AADL (SG_Software::Arbiter): link_down e link_up têm Urgency = 3, acima de crit_in (2) e per_in (1). Assim, a mudança de estado da saída é tratada antes de qualquer mensagem pendente, garantindo a entrada no modo de degradação.</body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_SoYp0ME1EfGNKtEunPCNwA" name="RQ01"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_gBTv8MF7EfGNKtEunPCNwA" name="RQ02"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_llxBkMF8EfGNKtEunPCNwA" name="RQ04"/>
@@ -90,8 +93,7 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_JANkAMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_6fj68MF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_M9KhwMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_OGdsIMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_gBTv8MF7EfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_P-83wMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_cJsvYMEyEfGNKtEunPCNwA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Vc8xgMV6EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_rZvLUMF8EfGNKtEunPCNwA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_P-83wMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_llxBkMF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Y4hggMV6EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_vzVo0MF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_aJhOUMV6EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_wznVQMHYEfGwWInniLvjbQ"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_1deSQMV7EfG4QflBFXdp_g" name="" client="_6bhNIMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
@@ -146,10 +148,6 @@
         <ownedConnector xmi:type="uml:Connector" xmi:id="_qU128MU5EfGfz5tzhjvfAQ" name="Connector11">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_qU3FEMU5EfGfz5tzhjvfAQ" partWithPort="_kfbX0sTuEfGtoOjGqlPCkg" role="_rMULIMUxEfGfz5tzhjvfAQ"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_qU3sIMU5EfGfz5tzhjvfAQ" partWithPort="_fH4rYMTuEfGtoOjGqlPCkg" role="_u6mawMUxEfGfz5tzhjvfAQ"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_5-ZBEMVtEfG4QflBFXdp_g" name="Connector14">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_5-a2QMVtEfG4QflBFXdp_g" partWithPort="_ihE0wsTuEfGtoOjGqlPCkg" role="_auKu8MU3EfGfz5tzhjvfAQ"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_5-a2QcVtEfG4QflBFXdp_g" partWithPort="_gzGQAMTuEfGtoOjGqlPCkg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_sMrDYMXKEfGsXc2OJAzKWw" name="Connector12">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_sMs4kMXKEfGsXc2OJAzKWw" partWithPort="_kfbX0sTuEfGtoOjGqlPCkg" role="_u9f3IMXIEfGsXc2OJAzKWw"/>
@@ -446,13 +444,10 @@
   <Blocks:NestedConnectorEnd xmi:id="_JOXlUMU5EfGfz5tzhjvfAQ" base_Element="_JOVwIMU5EfGfz5tzhjvfAQ" propertyPath="_f5VWcsTuEfGtoOjGqlPCkg" base_ConnectorEnd="_JOVwIMU5EfGfz5tzhjvfAQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_qU3sIcU5EfGfz5tzhjvfAQ" base_Element="_qU3FEMU5EfGfz5tzhjvfAQ" propertyPath="_kfbX0sTuEfGtoOjGqlPCkg" base_ConnectorEnd="_qU3FEMU5EfGfz5tzhjvfAQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_qU4TMMU5EfGfz5tzhjvfAQ" base_Element="_qU3sIMU5EfGfz5tzhjvfAQ" propertyPath="_fH4rYMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_qU3sIMU5EfGfz5tzhjvfAQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_5-a2QsVtEfG4QflBFXdp_g" base_Element="_5-a2QMVtEfG4QflBFXdp_g" propertyPath="_ihE0wsTuEfGtoOjGqlPCkg" base_ConnectorEnd="_5-a2QMVtEfG4QflBFXdp_g"/>
-  <Blocks:NestedConnectorEnd xmi:id="_5-bdUMVtEfG4QflBFXdp_g" base_Element="_5-a2QcVtEfG4QflBFXdp_g" propertyPath="_gzGQAMTuEfGtoOjGqlPCkg" base_ConnectorEnd="_5-a2QcVtEfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_JAc0kMV6EfG4QflBFXdp_g" base_DirectedRelationship="_JANkAMV6EfG4QflBFXdp_g" base_Abstraction="_JANkAMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_M9PaQMV6EfG4QflBFXdp_g" base_DirectedRelationship="_M9KhwMV6EfG4QflBFXdp_g" base_Abstraction="_M9KhwMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_OGgIYMV6EfG4QflBFXdp_g" base_DirectedRelationship="_OGdsIMV6EfG4QflBFXdp_g" base_Abstraction="_OGdsIMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_P-_7EMV6EfG4QflBFXdp_g" base_DirectedRelationship="_P-83wMV6EfG4QflBFXdp_g" base_Abstraction="_P-83wMV6EfG4QflBFXdp_g"/>
-  <Requirements:Refine xmi:id="_VdAb4MV6EfG4QflBFXdp_g" base_DirectedRelationship="_Vc8xgMV6EfG4QflBFXdp_g" base_Abstraction="_Vc8xgMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_Y4j8wMV6EfG4QflBFXdp_g" base_DirectedRelationship="_Y4hggMV6EfG4QflBFXdp_g" base_Abstraction="_Y4hggMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_aJjqkMV6EfG4QflBFXdp_g" base_DirectedRelationship="_aJhOUMV6EfG4QflBFXdp_g" base_Abstraction="_aJhOUMV6EfG4QflBFXdp_g"/>
   <Requirements:Refine xmi:id="_1dgugMV7EfG4QflBFXdp_g" base_DirectedRelationship="_1deSQMV7EfG4QflBFXdp_g" base_Abstraction="_1deSQMV7EfG4QflBFXdp_g"/>
