@@ -88,7 +88,7 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5OQEIcMpEfGJKsbJZCqV3Q" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEIsMpEfGJKsbJZCqV3Q" name="uc04 - tratar mensagem inválida" type="_iyeaoMMpEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEI8MpEfGJKsbJZCqV3Q" name="sistema externo de supervisão" type="_SuGigMJBEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5OQEI8MpEfGJKsbJZCqV3Q" name="operador" type="_SuGigMJBEfGJKsbJZCqV3Q" association="_5OO2AMMpEfGJKsbJZCqV3Q"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_JANkAMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_6fj68MF8EfGNKtEunPCNwA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_M9KhwMV6EfG4QflBFXdp_g" name="" client="_yCtIEMKoEfGJKsbJZCqV3Q" supplier="_SoYp0ME1EfGNKtEunPCNwA"/>
